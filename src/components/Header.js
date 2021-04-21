@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 import theme from '../styles/theme';
 const { colors, fontSizes } = theme ; 
 
-const Container = styled.div`
+const Container = styled.header`
   width: 100%; 
   height: 100vh;
   background: url('images/Practicando Kayak en Chimbote.jpg') no-repeat center;
