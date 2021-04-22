@@ -5,6 +5,7 @@ import UniendoChimbote from './sections/UniendoChimbote'
 import GlobalStyle from './styles/GlobalStyle'
 import './global-styles.css'
 import Rutas from './sections/Rutas'
+import Curricula from './sections/Curricula'
 
 const AppContainer = styled.div`
   position: relative;
@@ -19,6 +20,7 @@ const App = () => {
       <Header />
       <UniendoChimbote />
       <Rutas />
+      <Curricula />
     </AppContainer>
   );
 }
