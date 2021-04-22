@@ -15,6 +15,7 @@ const Container = styled.nav`
   color: ${colors.black};
   background-color: ${colors.white};
   padding: 4rem 3rem 1.5rem;
+  z-index: 99;
 `
 
 const Icon = styled.img`
@@ -25,8 +26,8 @@ const Icon = styled.img`
 `
 
 const Item = styled.a`
-  font-size: ${fontSizes.sm};
-  font-weight: 600;
+  font-size: ${fontSizes.base};
+  font-weight: 500;
   margin: 0 2rem;
 `
 

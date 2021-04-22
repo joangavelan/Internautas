@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import theme from '../styles/theme';
-const { colors, fontSizes } = theme ; 
+const { colors, fonts, fontSizes } = theme ; 
 
 const Container = styled.header`
+  position: relative;
   width: 100%; 
   height: 100vh;
   background: url('images/Practicando Kayak en Chimbote.jpg') no-repeat center;
@@ -15,14 +16,16 @@ const Heading = styled.div`
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 72rem;
+  max-width: 65rem;
   margin: 0 auto;
   color: ${colors.black};
   text-align: center;
 `
 
 const Title = styled.h1`
+  font-family: ${fonts.primary};
   font-size: ${fontSizes.xxl};
+  font-weight: 500;
   line-height: 1;
 `
 
@@ -32,14 +35,14 @@ const TagLine = styled.em`
 
 const Description = styled.p`
   font-size: ${fontSizes.md};
-  font-weight: 600;
+  font-weight: 500;
   margin: 2.5rem 0;
   line-height: 1.5;
 `
 
 const DownloadButton = styled.button`
   color: ${colors.rose};
-  font-size: ${fontSizes.md};
+  font-size: ${fontSizes.lg};
   background: transparent;
   font-weight: 600;
 `

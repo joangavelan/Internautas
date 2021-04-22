@@ -10,16 +10,16 @@ const theme = {
   },
 
   fonts: {
-    primary: 'Neue Haas, system, -apple-system, BlinkMacSystemFont, sans-serif'
+    primary: 'Neue Haas'
   },
 
   fontSizes: {
-    base: `1.6rem`,
+    base: `1.7rem`,
     xs: `1.2rem`,
     sm: `1.5rem`,
     md: `2.2rem`,
     lg: `2.4rem`,
-    xl: `4.2rem`,
+    xl: `4.1rem`,
     xxl: `10rem`
   }
 }
