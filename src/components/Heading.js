@@ -4,7 +4,7 @@ import theme from '../styles/theme'
 const { colors, fontSizes } = theme;
 
 const Container = styled.div`
-  max-width: 90rem;
+  max-width: ${props => props.width};
   margin: 0 auto;
   text-align: center;
 `
@@ -19,22 +19,22 @@ const Title = styled.h2`
 
 const TagLine = styled.em`
   font-size: ${fontSizes.xl};
-  color: ${colors.white}; 
+  color: ${props => colors[props.color]}; 
 `
 
 const Description = styled.p`
   font-size: 3rem;
   line-height: 1.75;
-  color: ${colors.white};
+  color: ${props => colors[props.color]}; 
   margin: 3rem 0;
 `
 
-const Heading = ({title: {name, color}, tagline, description}) => {
+const Heading = ({title, tagline, description, width, colors}) => {
   return (
-    <Container>
-      <Title color={color}>{name}</Title>
-      <TagLine>{tagline}</TagLine>
-      <Description>{description}</Description>
+    <Container width={width}>
+      <Title color={colors.title}>{title}</Title>
+      <TagLine color={colors.text}>{tagline}</TagLine>
+      <Description color={colors.text}>{description}</Description>
     </Container>
   )
 }

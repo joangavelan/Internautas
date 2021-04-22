@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import UniendoChimbote from './sections/UniendoChimbote'
 import GlobalStyle from './styles/GlobalStyle'
 import './global-styles.css'
+import Rutas from './sections/Rutas'
 
 const AppContainer = styled.div`
   position: relative;
@@ -17,6 +18,7 @@ const App = () => {
       <Nav />
       <Header />
       <UniendoChimbote />
+      <Rutas />
     </AppContainer>
   );
 }
