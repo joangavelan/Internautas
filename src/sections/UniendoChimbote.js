@@ -5,14 +5,19 @@ import theme from '../styles/theme'
 const { colors } = theme;
 
 const Container = styled.section`
+  position: relative;
   background-color: ${colors.black};
   padding: 10rem 3rem;
+  height: 150rem;
 `
 
 const Img = styled.img`
   display: block;
-  width: 100rem;
-  margin: 0 auto;
+  width: 135rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 `
 
 const UniendoChimbote = () => {
