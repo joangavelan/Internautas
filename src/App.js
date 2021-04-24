@@ -7,6 +7,7 @@ import './global-styles.css'
 import Rutas from './sections/Rutas'
 import Curricula from './sections/Curricula'
 import Convocatoria from './sections/Convocatoria'
+import Equipo from './sections/Equipo'
 
 const AppContainer = styled.div`
   position: relative;
@@ -23,6 +24,8 @@ const App = () => {
       <Rutas />
       <Curricula />
       <Convocatoria />
+      <Equipo />
+
     </AppContainer>
   );
 }
