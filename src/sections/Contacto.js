@@ -7,7 +7,7 @@ const Container = styled.section`
   position: relative;
   padding: 3rem;
   color: ${colors.black};
-  background: url('images/Gaviota en vuelo.jpg') no-repeat center;
+  background: url('images/Gaviota en vuelo.jpg') no-repeat bottom;
   background-size: cover;
   height: 100vh;
 `
@@ -16,10 +16,10 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 82%;
+  height: 85%;
   max-width: 82rem;
   position: absolute;
-  top: 56%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 `
@@ -75,6 +75,19 @@ const Textarea = styled.textarea`
   padding: 1.5rem 2rem;
 `
 
+const Submit = styled.input`
+  display: block;
+  font-size: 2rem;
+  color: ${colors.white};
+  background-color: ${colors.blue};
+  padding: 1.5rem 4.5rem;
+  border-radius: 3.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+`
+
 const Contacto = () => {
   return (
     <Container>
@@ -101,6 +114,8 @@ const Contacto = () => {
             <Label for="message">Mensaje: </Label>
             <Textarea id="message" name="message" row="10" cols="50" required></Textarea>
           </Entry>
+          {/* submit */}
+          <Submit type="submit" value="Enviar"/>
         </Form>
       </Content>
     </Container>
