@@ -34,7 +34,7 @@ const Description = styled.p`
 
 const Equipo = () => {
   return (
-    <Container>
+    <Container id="equipo">
       <Heading>
         <Title>Equipo Creativo</Title>
         <Description>Un buen trabajo es posible gracias al talento especializado, al compromiso apasionado y a los valores compartidos de amigos chimboteros con una visión común: el cambio cultural.</Description>

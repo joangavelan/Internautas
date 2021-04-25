@@ -49,7 +49,7 @@ const Card = styled.div`
 
 const Curricula = () => {
   return (
-    <Container>
+    <Container id="curricula">
       <Heading 
         title="Currícula"
         tagline="Expediciones y talleres"

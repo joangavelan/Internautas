@@ -10,7 +10,7 @@ const Container = styled.section`
 
 const Rutas = () => {
   return (
-    <Container>
+    <Container id="rutas">
       <Heading
         title="Rutas"
         tagline="Uniendo los valores de la gente y sus riquezas"

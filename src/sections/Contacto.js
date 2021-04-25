@@ -90,7 +90,7 @@ const Submit = styled.input`
 
 const Contacto = () => {
   return (
-    <Container>
+    <Container id="contacto">
       <Content>
         {/* heading */}
         <Heading>

@@ -22,7 +22,7 @@ const Button = styled.button`
 
 const Convocatoria = () => {
   return (
-    <Container>
+    <Container id="postulacion">
       <Heading 
         title="Convocatoria"
         tagline="beneficios de postulación"

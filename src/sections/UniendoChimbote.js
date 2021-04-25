@@ -22,7 +22,7 @@ const Img = styled.img`
 
 const UniendoChimbote = () => {
   return (
-    <Container>
+    <Container id="presentacion">
       <Heading
         title="Uniendo Chimbote"
         tagline="Hacia una red global de cultura, producción y turismo"
