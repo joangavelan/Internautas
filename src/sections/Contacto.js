@@ -98,20 +98,22 @@ const Contacto = () => {
           <Description>Un buen trabajo es posible gracias al talento especializado, al compromiso apasionado y a los valores compartidos de amigos chimboteros con una visión común: el cambio cultural.</Description>
         </Heading>
         {/* form */}
-        <Form>
+        <Form name="contact v1" method="POST" data-netlify="true">
+          {/* netlify */}
+          <Input type="hidden" name="contact-form" value="contact v1"/>
           {/* name */}
           <Entry>
-            <Label for="name">Nombres: </Label>
+            <Label htmlFor="name">Nombres: </Label>
             <Input id="name" type="text" name="name" required/>
           </Entry>
           {/* email */}
           <Entry>
-            <Label for="email">Correo: </Label>
+            <Label htmlFor="email">Correo: </Label>
             <Input id="email" type="email" name="email" required/>
           </Entry>
           {/* textarea */}
           <Entry>
-            <Label for="message">Mensaje: </Label>
+            <Label htmlFor="message">Mensaje: </Label>
             <Textarea id="message" name="message" row="10" cols="50" required></Textarea>
           </Entry>
           {/* submit */}
