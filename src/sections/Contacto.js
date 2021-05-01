@@ -5,23 +5,18 @@ const { colors, fontSizes, fonts } = theme;
 
 const Container = styled.section`
   position: relative;
-  padding: 3rem;
-  color: ${colors.black};
-  background: url('images/Gaviota en vuelo.jpg') no-repeat bottom;
+  padding: 15rem 3rem;
+  color: ${colors.white};
+  background: url('images/Bahía de Chimbote.jpg') no-repeat bottom;
   background-size: cover;
-  height: 100vh;
+  height: 125.8rem;
 `
 
 const Content = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 85%;
   max-width: 82rem;
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 0 auto;
 `
 
 const Heading = styled.div`
@@ -34,9 +29,8 @@ const Title = styled.h2`
   font-weight: 500;
 `
 
-const Description = styled.p`
-  font-size: ${fontSizes.md};
-  line-height: 1.5;
+const Description = styled.em`
+  font-size: 3rem;
 `
 
 const Form = styled.form`
@@ -58,10 +52,11 @@ const Label = styled.label`
 const Input = styled.input`
   width: 100%;
   font-size: ${fontSizes.md};
-  border: 2px solid #857F87;
+  border: 1.5px solid #333;
   outline: none;
   border-radius: 3rem;
-  padding: 1.5rem 2rem;
+  padding: 1.3rem 2rem;
+  background: rgba(255,255,255,0.5);
 `
 
 const Textarea = styled.textarea`
@@ -69,10 +64,11 @@ const Textarea = styled.textarea`
   height: 15rem;
   font-family: ${fonts.primary};
   font-size: ${fontSizes.md};
-  border: 2px solid #857F87;
+  border: 1.5px solid #333;
   outline: none;
   border-radius: 3rem;
-  padding: 1.5rem 2rem;
+  padding: 1.3rem 2rem;
+  background: rgba(255,255,255,0.5);
 `
 
 const Submit = styled.input`
@@ -95,7 +91,7 @@ const Contacto = () => {
         {/* heading */}
         <Heading>
           <Title>Contacto</Title>
-          <Description>Un buen trabajo es posible gracias al talento especializado, al compromiso apasionado y a los valores compartidos de amigos chimboteros con una visión común: el cambio cultural.</Description>
+          <Description>Consultas y sugerencias</Description>
         </Heading>
         {/* form */}
         <Form name="contact v1" method="POST" data-netlify="true">

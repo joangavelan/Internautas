@@ -4,7 +4,7 @@ const theme = {
     gold: '#DAB26A',
     green: '#37C869',
     blue: '#073AA3',
-    red: '#B92023',
+    red: '#ff0000',
     black: '#000',
     white: '#fff'
   },
@@ -16,11 +16,11 @@ const theme = {
   fontSizes: {
     base: `1.7rem`,
     xs: `1.2rem`,
-    sm: `1.8rem`,
-    md: `2.2rem`,
+    sm: `1.6rem`,
+    md: `2.1rem`,
     lg: `2.4rem`,
-    xl: `4.1rem`,
-    xxl: `10rem`
+    xl: `3rem`,
+    xxl: `7rem`
   }
 }
 

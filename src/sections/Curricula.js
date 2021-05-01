@@ -13,7 +13,8 @@ const Container = styled.section`
 
 const Cards = styled.div`
   max-width: 110rem;
-  margin: 5rem auto;
+  margin: 0 auto;
+  margin-top: 7.5rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -27,20 +28,20 @@ const Card = styled.div`
   border-radius: 2.5rem;
 
   & h3 {
-    font-size: 5.8rem;
+    font-size: 4.3rem;
     font-weight: 500;
     color: ${props => colors[props.titleColor]}; 
   }
 
   p { 
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: ${colors.black};
     line-height: 1.75;
     margin: 2rem 0;
   }
 
   button {
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 600;
     color: ${colors.red};
     background: transparent;
@@ -55,7 +56,7 @@ const Curricula = () => {
         tagline="Expediciones y talleres"
         description="Llevar a Chimbote de ser una sociedad dependiente de la industria pesquera, del comercio incipiente y de la agricultura de subsistencia; a una cultura más productiva orientada al turismo, significa comprender su historia, su patrimonio y su territorio."
         colors={{title: 'white', text: 'white'}}
-        width="110rem"
+        width="80rem"
       />
       <Cards>
         <Card titleColor="green">

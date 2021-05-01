@@ -18,13 +18,15 @@ const Title = styled.h2`
 `
 
 const TagLine = styled.em`
+  display: inline-block;
   font-size: ${fontSizes.xl};
   color: ${props => colors[props.color]}; 
+  margin-top: 1rem;
 `
 
 const Description = styled.p`
-  font-size: 3rem;
-  line-height: 1.75;
+  font-size: 2.1rem;
+  line-height: 1.85;
   color: ${props => colors[props.color]}; 
   margin: 3rem 0;
 `
