@@ -40,7 +40,7 @@ const Card = styled.div`
     margin: 2rem 0;
   }
 
-  button {
+  a {
     font-size: 1.9rem;
     font-weight: 600;
     color: ${colors.red};
@@ -62,12 +62,12 @@ const Curricula = () => {
         <Card titleColor="green">
           <h3>Talleres</h3>
           <p>Capacitaciones en desarrollo de aplicaciones, branding y diseño, gestión cultural, gestión turística y gestión de proyectos. Integrando toda la información en una plataforma única, sostenible y escalable.</p>
-          <button>+ Ver currícula</button>
+          <a href="/pdfs/Internautas (talleres).pdf" download>+ Ver currícula</a>
         </Card>
         <Card titleColor="blue">
           <h3>Expediciones</h3>
           <p>Viajes vivenciales y campamentos en los miradores naturales de nuestra provincia, como el ancestral Monte de Chimbote, el histórico Cerro de la Juventud, la gran península El Ferrol y el inspirador mirador de Quillcay.</p>
-          <button>+ Ver rutas</button>
+          <a href="/pdfs/Internautas (expediciones).pdf" download>+ Ver rutas</a>
         </Card>
       </Cards>
     </Container>
