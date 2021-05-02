@@ -42,7 +42,7 @@ const Card = styled.div`
 
   a {
     font-size: 1.9rem;
-    font-weight: 600;
+    font-weight: 500;
     color: ${colors.red};
     background: transparent;
   }
