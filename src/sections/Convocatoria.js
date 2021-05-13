@@ -12,7 +12,7 @@ const Container = styled.section`
   text-align: center;
 `
 
-const Button = styled.button`
+const Link = styled.a`
   font-size: ${fontSizes.lg};
   background-color: #0242BE;
   color: ${colors.white};
@@ -30,7 +30,9 @@ const Convocatoria = () => {
         colors={{title: 'black', text: 'black'}}
         width="80rem"
       />
-      <Button>Postula</Button>
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf8K65MQeEDn7ZZ1GfEhGSBC_elTcaFlBWAU6NRtVfNL7SRkA/viewform?fbclid=IwAR30JWRJr3UohfKCpYK25YhNW-gpCiQDeW6P6fqQaEr16J1bJRfwlRWE3qs" target="_blank">
+        Postula
+      </Link>
     </Container>
   )
 }

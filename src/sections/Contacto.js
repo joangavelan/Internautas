@@ -15,31 +15,34 @@ const Container = styled.section`
 const Content = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 82rem;
   margin: 0 auto;
+  max-width: 80rem;
 `
 
 const Heading = styled.div`
-  margin: 0 auto;
+  margin: 0 auto 4rem;
   text-align: center;
 `
 
 const Title = styled.h2`
-  font-size: ${fontSizes.xxl};
+  font-size: 8rem;
   font-weight: 500;
 `
 
 const Description = styled.em`
-  font-size: 3rem;
+  font-size: 3.5rem;
 `
 
 const Form = styled.form`
-  max-width: 50rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 3rem;
+  width: 100%;
   font-size: ${fontSizes.lg};
-  margin: 0 auto;
 `
 
 const Entry = styled.div`
+  grid-area: ${props => props.gridArea};
   margin: 2rem 0;
 `
 
@@ -56,6 +59,7 @@ const Input = styled.input`
   outline: none;
   border-radius: 3rem;
   padding: 1.3rem 2rem;
+  color: ${colors.white};
   background: rgba(255,255,255,0.5);
 `
 
@@ -68,6 +72,7 @@ const Textarea = styled.textarea`
   outline: none;
   border-radius: 3rem;
   padding: 1.3rem 2rem;
+  color: ${colors.white};
   background: rgba(255,255,255,0.5);
 `
 
@@ -94,26 +99,26 @@ const Contacto = () => {
           <Description>Consultas y sugerencias</Description>
         </Heading>
         {/* form */}
-        <Form name="contact v1" method="POST" data-netlify="true">
-          {/* netlify */}
-          <Input type="hidden" name="contact-form" value="contact v1"/>
+        <Form name="contact" netlify>
           {/* name */}
-          <Entry>
+          <Entry gridArea="1 / 1 / 2 / 2">
             <Label htmlFor="name">Nombres: </Label>
             <Input id="name" type="text" name="name" required/>
           </Entry>
           {/* email */}
-          <Entry>
+          <Entry gridArea="1 / 2 / 2 / 3">
             <Label htmlFor="email">Correo: </Label>
             <Input id="email" type="email" name="email" required/>
           </Entry>
           {/* textarea */}
-          <Entry>
+          <Entry gridArea="2 / 1 / 3 / 3">
             <Label htmlFor="message">Mensaje: </Label>
             <Textarea id="message" name="message" row="10" cols="50" required></Textarea>
           </Entry>
           {/* submit */}
-          <Submit type="submit" value="Enviar"/>
+          <Entry gridArea="3 / 1 / 4 / 3">
+            <Submit type="submit" value="Enviar"/>
+          </Entry>
         </Form>
       </Content>
     </Container>
