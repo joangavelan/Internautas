@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import theme from '../styles/theme';
-const { colors, fonts, fontSizes } = theme ; 
+import media from '../styles/media'
+import theme from '../styles/theme'
+const { colors, fonts } = theme
 
 const Container = styled.header`
   position: relative;
@@ -27,10 +28,18 @@ const Title = styled.h1`
   font-size: 12rem;
   font-weight: 500;
   line-height: 1;
+
+  ${media.netbook`
+    font-size: 8rem;
+  `}
 `
 
 const TagLine = styled.em`
   font-size: 5.2rem;
+
+  ${media.netbook`
+    font-size: 4rem;
+  `}
 `
 
 const Description = styled.p`
@@ -38,6 +47,10 @@ const Description = styled.p`
   font-weight: 500;
   margin: 2.5rem 0;
   line-height: 1.5;
+
+  ${media.netbook`
+    font-size: 2rem;
+  `}
 `
 
 const DownloadButton = styled.button`
@@ -46,6 +59,10 @@ const DownloadButton = styled.button`
   background: transparent;
   font-weight: 600;
   letter-spacing: -1px;
+
+  ${media.netbook`
+    font-size: 2rem;
+  `}
 `
 
 const Header = () => {

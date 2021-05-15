@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components/macro'
+import media from './media'
 import theme from './theme'
 const { fonts } = theme;
 
@@ -15,6 +16,10 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
+    ${media.netbook`
+      font-size: 55.3%;
+    `}
   }
 
   body {
