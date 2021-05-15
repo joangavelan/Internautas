@@ -29,6 +29,10 @@ const Hamburger = styled(GiHamburgerMenu)`
   display: none;
   font-size: 2rem;
   cursor: pointer;
+
+  ${media.tablet`
+    display: block;
+  `}
 `
 
 const Icon = styled.img`
