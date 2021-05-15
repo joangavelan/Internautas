@@ -26,6 +26,7 @@ const Container = styled.div`
 `
 
 const Hamburger = styled(GiHamburgerMenu)`
+  display: none;
   font-size: 2rem;
   cursor: pointer;
 `
@@ -83,8 +84,8 @@ const Nav = () => {
               {item.name}
           </Item>
         ))}
-        <Icon src="images/icon-whatsapp.png" alt="whatsapp icon"/>
       </NavItems>
+      <Icon src="images/icon-whatsapp.png" alt="whatsapp icon"/>
       <Hamburger onClick={() => setActive(active => !active)}/>
     </Container>
   )
