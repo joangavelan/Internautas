@@ -16,7 +16,7 @@ const Cards = styled.div`
   margin: 0 auto;
   margin-top: 7.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   text-align: center;
 `
@@ -26,6 +26,7 @@ const Card = styled.div`
   background-color: ${colors.white};
   padding: 3rem 5rem;  
   border-radius: 2.5rem;
+  margin: 2rem;
 
   & h3 {
     font-size: 4.3rem;
