@@ -13,11 +13,9 @@ const Container = styled.section`
 
 const Img = styled.img`
   display: block;
-  max-width: 135rem;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  max-width: 125rem;
+  margin: 0 auto;
+  margin-top: 7rem;
 `
 
 const UniendoChimbote = () => {
