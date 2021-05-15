@@ -13,7 +13,7 @@ const Container = styled.section`
 
 const Img = styled.img`
   display: block;
-  width: 135rem;
+  max-width: 135rem;
   position: absolute;
   bottom: 0;
   left: 50%;

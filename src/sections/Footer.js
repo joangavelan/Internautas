@@ -1,27 +1,52 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import theme from '../styles/theme'
+const { colors } = theme;
 
 const Container = styled.footer`
-  position: relative;
-  height: 120rem;
-  background: url('images/Bahía de Chimbote.jpg') no-repeat center;
-  background-size: cover;
+  background: ${colors.black};
+  padding: 7rem 3rem;
+`
+
+const Content = styled.div`
+  max-width: 130rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 `
 
 const LogoWrapper = styled.div`
-  width: 80rem;
-  position: absolute;
-  top: 33%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 30rem;
   text-align: center;
+`
+
+const Aliados = styled.div`
+  width: 30rem;
+  color: ${colors.white};
+  font-size: 1.7rem;
+  text-align: center;
+
+  & > p {
+    text-transform: uppercase;
+    vertical-align: middle;
+    line-height: 1.45;
+  }
+
+  & > p:first-child {
+    margin-bottom: 4rem;
+  }
+  
+  & > p:not(:first-child) {
+    display: inline-block;
+    width: 50%;
+  }
 `
 
 const Small = styled.small`
   display: inline-block;
-  font-size: 3.2rem;
+  font-size: 1.7rem;
   color: white;
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
 `
 
 const Logo = styled.img`
@@ -32,10 +57,22 @@ const Logo = styled.img`
 const Footer = () => {
   return (
     <Container>
-      <LogoWrapper>
-        <Small>Produce:</Small>
-        <Logo src="images/Chimboteros logo.png" alt="Chimboteros logo"/>
-      </LogoWrapper>
+        <Content>
+          <Aliados>
+            <p>Aliados:</p>
+            <p>Adagio</p>
+            <p>Universidad Tecnológica del Perú</p>
+          </Aliados>
+          <LogoWrapper>
+            <Small>Produce:</Small>
+            <Logo src="images/Chimboteros logo.png" alt="chimboteros logo"/>
+          </LogoWrapper>
+          <Aliados>
+            <p>Aliados:</p>
+            <p>Ministerio de Cultura Chimbote</p>
+            <p>Dirscetur Subregión Pacífico</p>
+          </Aliados>
+        </Content>
     </Container>
   )
 }
