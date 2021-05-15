@@ -11,23 +11,29 @@ const Container = styled.section`
   height: 140rem;
 `
 
-const Img = styled.img`
-  display: block;
+const ContentWrapper = styled.div`
   max-width: 125rem;
   margin: 0 auto;
+` 
+
+const Img = styled.img`
+  width: 100%;
+  display: block;
   margin-top: 7rem;
 `
 
 const UniendoChimbote = () => {
   return (
     <Container id="presentacion">
-      <Heading
-        title="Uniendo Chimbote"
-        tagline="Hacia una red global de cultura, producción y turismo"
-        description="Luego de una completa investigación de la provincia del Santa, Chimboteros convoca a jóvenes desarrolladores para culminar juntos una plataforma que eduque a la ciudadanía en el autodescubrimiento de sus riquezas, la creación de cultura y el desarrollo del turismo."
-        colors={{title: 'gold', text: 'white'}}
-        width="80rem"/>
-      <Img src="images/Plataforma web Culturalismo.jpg" alt="Plataforma web culturalismo"/>
+      <ContentWrapper>
+        <Heading
+          title="Uniendo Chimbote"
+          tagline="Hacia una red global de cultura, producción y turismo"
+          description="Luego de una completa investigación de la provincia del Santa, Chimboteros convoca a jóvenes desarrolladores para culminar juntos una plataforma que eduque a la ciudadanía en el autodescubrimiento de sus riquezas, la creación de cultura y el desarrollo del turismo."
+          colors={{title: 'gold', text: 'white'}}
+          width="80rem"/>
+        <Img src="images/Plataforma web Culturalismo.jpg" alt="Plataforma web culturalismo"/>
+      </ContentWrapper>
     </Container>
   )
 }
