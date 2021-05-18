@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Heading from '../components/Heading';
+import media from '../styles/media'
 import theme from '../styles/theme'
 const { colors } = theme;
 
@@ -9,6 +10,11 @@ const Container = styled.section`
   background-color: ${colors.black};
   padding: 15rem 3rem;
   height: 140rem;
+
+  ${media.tablet`
+    padding: 5rem 3rem;
+    height: 100vh;
+  `}
 `
 
 const ContentWrapper = styled.div`

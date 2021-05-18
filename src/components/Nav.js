@@ -59,7 +59,7 @@ const NavItems = styled.nav`
     overflow: hidden;
     background: ${colors.white};
     /* transition: 0.3s all ease; */
-    padding-bottom: ${props => props.active ? '1.5rem' : '0'};
+    padding: ${props => props.active ? '1.5rem 0' : '0'};
   `}
 `
 

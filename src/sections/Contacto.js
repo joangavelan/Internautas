@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import media from '../styles/media'
 import theme from '../styles/theme'
 const { colors, fontSizes, fonts } = theme;
 
@@ -10,6 +11,11 @@ const Container = styled.section`
   background: url('images/Bahía de Chimbote.jpg') no-repeat bottom;
   background-size: cover;
   height: 125.8rem;
+
+  ${media.tablet`
+    height: 100vh;
+    padding: 5rem 3rem;
+  `}
 `
 
 const Content = styled.div`
@@ -22,15 +28,28 @@ const Content = styled.div`
 const Heading = styled.div`
   margin: 0 auto 4rem;
   text-align: center;
+
+  ${media.tablet`
+    margin-bottom: 2.5rem;
+  `}
 `
 
 const Title = styled.h2`
   font-size: 8rem;
   font-weight: 500;
+
+  ${media.tablet`
+    font-size: 4.5rem;
+    margin-bottom: .5rem;
+  `}
 `
 
 const Description = styled.em`
   font-size: 3.5rem;
+
+  ${media.tablet`
+    font-size: 2.5rem;
+  `}
 `
 
 const Form = styled.form`
@@ -39,17 +58,29 @@ const Form = styled.form`
   grid-column-gap: 3rem;
   width: 100%;
   font-size: ${fontSizes.lg};
+
+  ${media.tablet`
+    grid-column-gap: 2rem;
+  `}
 `
 
 const Entry = styled.div`
   grid-area: ${props => props.gridArea};
   margin: 2rem 0;
+
+  ${media.tablet`
+    margin: 1rem 0;
+  `}
 `
 
 const Label = styled.label`
   display: block;
   margin-left: 1.5rem;
   margin-bottom: 1rem;
+
+  ${media.tablet`
+    font-size: 1.8rem;
+  `}
 `
 
 const Input = styled.input`
@@ -61,6 +92,10 @@ const Input = styled.input`
   padding: 1.3rem 2rem;
   color: ${colors.white};
   background: rgba(255,255,255,0.5);
+
+  ${media.tablet`
+    font-size: 1.8rem;
+  `}
 `
 
 const Textarea = styled.textarea`
@@ -87,6 +122,11 @@ const Submit = styled.input`
   border: none;
   cursor: pointer;
   margin: 0 auto;
+
+  ${media.tablet`
+    font-size: 1.8rem;
+    padding: 1.3rem 4.2rem;
+  `}
 `
 
 const Contacto = () => {

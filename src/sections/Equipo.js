@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import media from '../styles/media'
 import theme from '../styles/theme'
 const { colors, fontSizes } = theme;
 
@@ -20,16 +21,31 @@ const Heading = styled.div`
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  ${media.tablet`
+    width: 100%;
+    position: relative;
+    top: 17%;
+  `}
 `
 
 const Title = styled.h2`
   font-size: ${fontSizes.xxl};
   font-weight: 500;
+
+  ${media.tablet`
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem;
+  `}
 `
 
 const Description = styled.p`
   font-size: ${fontSizes.md};
   line-height: 1.5;
+
+  ${media.tablet`
+    font-size: 2rem;
+  `}
 ` 
 
 const Equipo = () => {

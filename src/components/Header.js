@@ -10,6 +10,10 @@ const Container = styled.header`
   height: 130rem;
   background: url('images/Practicando Kayak en Chimbote.jpg') no-repeat top;
   background-size: cover;
+
+  ${media.tablet`
+    height: 100vh;
+  `}
 `
 
 const Heading = styled.div`

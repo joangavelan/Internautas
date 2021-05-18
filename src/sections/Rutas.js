@@ -1,11 +1,16 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Heading from '../components/Heading';
+import media from '../styles/media'
 
 const Container = styled.section`
   padding: 15rem 3rem;
   background: url('images/montañas.jpg') no-repeat center;
   height: 160rem;
+
+  ${media.tablet`
+    padding: 5rem 3rem;
+  `}
 `
 
 const Rutas = () => {

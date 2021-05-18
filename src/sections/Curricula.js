@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Heading from '../components/Heading'
+import media from '../styles/media'
 import theme from '../styles/theme'
 const { colors } = theme;
 
@@ -9,6 +10,11 @@ const Container = styled.section`
   background: url('images/Noche en Huaraz.jpg') no-repeat bottom;
   background-size: cover;
   height: 140rem;
+
+  ${media.tablet`
+    padding: 5rem 3rem;
+    height: 150rem;
+  `}
 `
 
 const Cards = styled.div`
@@ -19,6 +25,10 @@ const Cards = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+
+  ${media.tablet`
+    margin-top: 0;
+  `}
 `
 
 const Card = styled.div`
@@ -31,7 +41,11 @@ const Card = styled.div`
   & h3 {
     font-size: 4.3rem;
     font-weight: 500;
-    color: ${props => colors[props.titleColor]}; 
+    color: ${props => colors[props.titleColor]};
+
+    ${media.tablet`
+      font-size: 3.5rem;
+    `}
   }
 
   p { 
@@ -39,6 +53,10 @@ const Card = styled.div`
     color: ${colors.black};
     line-height: 1.75;
     margin: 2rem 0;
+
+    ${media.tablet`
+      margin-top: 1rem;
+    `}
   }
 
   a {

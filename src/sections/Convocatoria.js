@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Heading from '../components/Heading'
+import media from '../styles/media'
 import theme from '../styles/theme'
 const { colors, fontSizes } = theme;
 
@@ -10,6 +11,11 @@ const Container = styled.section`
   background-size: cover;
   height: 150rem;
   text-align: center;
+
+  ${media.tablet`
+    padding: 5rem 3rem;
+    height: 120rem;
+  `}
 `
 
 const Link = styled.a`
@@ -18,6 +24,11 @@ const Link = styled.a`
   color: ${colors.white};
   padding: 1.3rem 5.5rem;
   border-radius: 3.5rem;
+
+  ${media.tablet`
+    font-size: 2rem;
+    padding: 1.1rem 4.7rem;
+  `}
 `
 
 const Convocatoria = () => {
