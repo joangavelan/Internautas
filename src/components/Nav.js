@@ -37,12 +37,12 @@ const Hamburger = styled(GiHamburgerMenu)`
 
 const Icon = styled.img`
   display: block;
-  width: 2rem;
-  height: 2rem;
+  width: ${props => props.width};
+  height: ${props => props.height};
   margin: 0 2rem;
 
   ${media.tablet`
-    display: none; 
+    display: none;
   `}
 `
 
@@ -79,7 +79,7 @@ const Nav = () => {
 
   return (
     <Container>
-      <Icon src="/images/icon-on.png" alt="icon on"/>
+      <Icon src="/images/icon-on.png" alt="icon on" width='2rem' height='2rem'/>
       <NavItems active={active}>
         {navItems.map((item) => (
           <Item 
@@ -89,7 +89,7 @@ const Nav = () => {
           </Item>
         ))}
       </NavItems>
-      <Icon src="images/icon-whatsapp.png" alt="whatsapp icon"/>
+      <Icon src="images/icon-fb.png" alt="whatsapp icon" width="2.2rem" height="2.2rem"/>
       <Hamburger onClick={() => setActive(active => !active)}/>
     </Container>
   )
