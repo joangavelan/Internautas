@@ -77,6 +77,7 @@ const Label = styled.label`
   display: block;
   margin-left: 1.5rem;
   margin-bottom: 1rem;
+  font-size: 2rem;
 
   ${media.tablet`
     font-size: 1.8rem;
@@ -85,13 +86,13 @@ const Label = styled.label`
 
 const Input = styled.input`
   width: 100%;
-  font-size: ${fontSizes.md};
-  border: 1.5px solid #333;
+  font-size: 2rem;
+  border: none;
   outline: none;
   border-radius: 3rem;
   padding: 1.3rem 2rem;
   color: ${colors.white};
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.2);
 
   ${media.tablet`
     font-size: 1.8rem;
@@ -102,21 +103,21 @@ const Textarea = styled.textarea`
   width: 100%;
   height: 15rem;
   font-family: ${fonts.primary};
-  font-size: ${fontSizes.md};
-  border: 1.5px solid #333;
+  font-size: 2rem;
+  border: none;
   outline: none;
   border-radius: 3rem;
   padding: 1.3rem 2rem;
   color: ${colors.white};
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.2);
 `
 
 const Submit = styled.input`
   display: block;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: ${colors.white};
   background-color: ${colors.blue};
-  padding: 1.5rem 4.5rem;
+  padding: .8rem 4.5rem;
   border-radius: 3.5rem;
   outline: none;
   border: none;

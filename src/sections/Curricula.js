@@ -39,7 +39,7 @@ const Card = styled.div`
   margin: 2rem;
 
   & h3 {
-    font-size: 4.3rem;
+    font-size: 5rem;
     font-weight: 500;
     color: ${props => colors[props.titleColor]};
 
@@ -60,7 +60,7 @@ const Card = styled.div`
   }
 
   a {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     font-weight: 500;
     color: ${colors.red};
     background: transparent;

@@ -4,7 +4,7 @@ import Heading from '../components/Heading'
 import media from '../styles/media'
 
 const Container = styled.section`
-  padding: 15rem 3rem;
+  padding: 10rem 3rem;
   background: url('images/montañas.jpg') no-repeat bottom;
   background-size: cover;
   height: 100vh;

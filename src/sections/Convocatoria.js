@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 import Heading from '../components/Heading'
 import media from '../styles/media'
 import theme from '../styles/theme'
-const { colors, fontSizes } = theme;
+const { colors } = theme;
 
 const Container = styled.section`
   padding: 15rem 3rem;
@@ -19,10 +19,10 @@ const Container = styled.section`
 `
 
 const Link = styled.a`
-  font-size: ${fontSizes.lg};
+  font-size: 1.8rem;
   background-color: #0242BE;
   color: ${colors.white};
-  padding: 1.3rem 5.5rem;
+  padding: .8rem 4.5rem;
   border-radius: 3.5rem;
 
   ${media.tablet`
