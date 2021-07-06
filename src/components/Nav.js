@@ -19,6 +19,7 @@ const Container = styled.div`
   background-color: rgba(255,255,255,0.9);
   padding: 2.3rem;
   z-index: 99;
+  backdrop-filter: saturate(100%) blur(5px);
 
   ${media.tablet`
     justify-content: flex-end;
