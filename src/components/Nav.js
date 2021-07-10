@@ -80,7 +80,7 @@ const Nav = () => {
 
   return (
     <Container>
-      <Icon src="/images/icon-on.png" alt="icon on" width='2rem' height='2rem'/>
+      <a href="#header"><Icon src="/images/icon-on.png" alt="icon on" width='2rem' height='2rem'/></a>
       <NavItems active={active}>
         {navItems.map((item) => (
           <Item 
@@ -90,7 +90,9 @@ const Nav = () => {
           </Item>
         ))}
       </NavItems>
-      <Icon src="images/icon-fb.png" alt="whatsapp icon" width="2.2rem" height="2.2rem"/>
+      <a href="https://www.facebook.com/Internautasperu/" target="_blank">
+        <Icon src="images/icon-fb.png" alt="whatsapp icon" width="2.2rem" height="2.2rem"/>
+      </a>
       <Hamburger onClick={() => setActive(active => !active)}/>
     </Container>
   )

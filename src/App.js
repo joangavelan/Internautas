@@ -20,7 +20,7 @@ const App = () => {
     <AppContainer>
       <GlobalStyle />
       
-      <Nav />
+      {/* <Nav /> */}
       <Header />
       <UniendoChimbote />
       <Rutas />

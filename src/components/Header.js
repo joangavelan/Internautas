@@ -8,7 +8,7 @@ const Container = styled.header`
   position: relative;
   width: 100%; 
   height: 100vh;
-  background: url('images/Practicando Kayak en Chimbote.jpg') no-repeat center;
+  background: url('images/internautas web.jpg') no-repeat bottom;
   background-size: cover;
 
   ${media.tablet`
@@ -56,7 +56,7 @@ const Logo = styled.img`
 
 const Header = () => {
   return (
-    <Container>
+    <Container id="header">
       <Heading>
         <Logo src="/images/internautas logo.png"/>
         <Description>Nuevos tiempos de cambio empiezan a correr y nos inspiran a forjar un mundo vibrante de cultura, producción y turismo sostenible.</Description>
