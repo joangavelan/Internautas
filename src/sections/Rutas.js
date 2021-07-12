@@ -20,7 +20,7 @@ const Rutas = () => {
       <Heading
         title="Rutas"
         tagline="Uniendo los valores de la gente y sus riquezas"
-        description="En cada rincón de nuestra provincia conviven misteriosamente riquezas por promover, revalorar y articular; mediante rutas culturales con proyección turística, para transmitir sus potencialidades y unir a su gente de la manera más sencilla e inspiradora."
+        description="En cada rincón de nuestra provincia conviven misteriosamente riquezas por promover, revalorar y articular mediante rutas culturales con proyección turística, para transmitir sus potencialidades y unir a su gente de la manera más sencilla e inspiradora."
         colors={{title: 'gold', text: 'black'}}
         width="80rem"
       />

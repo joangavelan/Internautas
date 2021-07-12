@@ -2,13 +2,14 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import media from '../styles/media'
 import theme from '../styles/theme'
-const { colors, fonts } = theme
+import { BsChevronDown } from 'react-icons/bs'
+const { colors } = theme
 
 const Container = styled.header`
   position: relative;
   width: 100%; 
   height: 100vh;
-  background: url('images/internautas web.jpg') no-repeat bottom;
+  background: url('images/kayak.jpg') no-repeat bottom;
   background-size: cover;
 
   ${media.tablet`
@@ -38,20 +39,25 @@ const Description = styled.p`
   `}
 `
 
-const DownloadButton = styled.button`
-  color: ${colors.red};
-  font-size: 2.3rem;
-  background: transparent;
-  letter-spacing: -1px;
-  cursor: pointer;
+// const DownloadButton = styled.button`
+//   color: ${colors.red};
+//   font-size: 2.3rem;
+//   background: transparent;
+//   letter-spacing: -1px;
+//   cursor: pointer;
 
-  ${media.netbook`
-    font-size: 2rem;
-  `}
-`
+//   ${media.netbook`
+//     font-size: 2rem;
+//   `}
+// `
 
 const Logo = styled.img`
   width: 75%;
+`
+
+const Icon = styled(BsChevronDown)`
+  font-size: 3.5rem;
+  color: ${colors.rose};
 `
 
 const Header = () => {
@@ -60,7 +66,8 @@ const Header = () => {
       <Heading>
         <Logo src="/images/internautas logo.png"/>
         <Description>Nuevos tiempos de cambio empiezan a correr y nos inspiran a forjar un mundo vibrante de cultura, producción y turismo sostenible.</Description>
-        <DownloadButton>Ver más +</DownloadButton>
+        {/* <DownloadButton>Ver más +</DownloadButton> */}
+        <Icon />
       </Heading>
     </Container>
   )

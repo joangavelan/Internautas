@@ -2,9 +2,10 @@ const theme = {
   colors: {
     rose: '#E80767',
     gold: '#DAB26A',
-    green: '#37C869',
-    blue: '#073AA3',
+    green: '#009000',
+    blue: '#0343C9',
     red: '#ff0000',
+    dark: '#262626',
     black: '#000',
     white: '#fff'
   },

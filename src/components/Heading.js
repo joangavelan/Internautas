@@ -12,7 +12,7 @@ const Container = styled.div`
 
 const Title = styled.h2`
   font-size: ${fontSizes.xxl};
-  font-weight: 500;
+  font-weight: 600;
   color: ${props => colors[props.color]};
   text-transform: capitalize;
   line-height: 1.2;
@@ -26,7 +26,6 @@ const TagLine = styled.em`
   display: inline-block;
   font-size: ${fontSizes.xl};
   color: ${props => colors[props.color]}; 
-  margin-top: 1rem;
 
   ${media.tablet`
     font-size: 2.5rem;
@@ -36,7 +35,7 @@ const TagLine = styled.em`
 
 const Description = styled.p`
   font-size: 2.1rem;
-  line-height: 1.85;
+  line-height: 1.75;
   color: ${props => colors[props.color]}; 
   margin: 3rem 0;
 

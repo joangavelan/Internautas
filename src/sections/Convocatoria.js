@@ -6,10 +6,11 @@ import theme from '../styles/theme'
 const { colors } = theme;
 
 const Container = styled.section`
-  padding: 15rem 3rem;
+  padding: 10rem 3rem;
+  padding-top: 0;
   background: url('images/Plataforma web Culturalismo en celulares.jpg') no-repeat bottom;
   background-size: cover;
-  height: 150rem;
+  height: 100vh;
   text-align: center;
 
   ${media.tablet`

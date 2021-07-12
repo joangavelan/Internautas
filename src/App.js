@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro'
 import Header from './components/Header'
 import Nav from './components/Nav'
-import UniendoChimbote from './sections/UniendoChimbote'
+import RedChimboteros from './sections/RedChimboteros'
 import GlobalStyle from './styles/GlobalStyle'
 import './global-styles.css'
 import Rutas from './sections/Rutas'
@@ -22,15 +22,15 @@ const App = () => {
       
       {/* <Nav /> */}
       <Header />
-      <UniendoChimbote />
+      <RedChimboteros />
       <Rutas />
       <Curricula />
-      <Convocatoria />
       <Equipo />
+      <Convocatoria />
       <Contacto />
 
     </AppContainer>
-  );
+  )
 }
 
 export default App;
