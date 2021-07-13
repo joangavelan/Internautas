@@ -4,8 +4,11 @@ import theme from '../styles/theme'
 const { colors } = theme;
 
 const Container = styled.footer`
-  background: ${colors.black};
+  position: relative;
   padding: 7rem 3rem;
+  height: 100vh;
+  background: url('images/bahia de chimbote de noche.jpg') no-repeat bottom;
+  background-size: cover;
 `
 
 const Content = styled.div`
@@ -16,8 +19,23 @@ const Content = styled.div`
 `
 
 const LogoWrapper = styled.div`
-  width: 30rem;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60rem;
   text-align: center;
+`
+
+const Address = styled.div`
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 2rem;
+  font-size: 1.7rem;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
 `
 
 const Aliados = styled.div`
@@ -44,9 +62,9 @@ const Aliados = styled.div`
 
 const Small = styled.small`
   display: inline-block;
-  font-size: 1.7rem;
+  font-size: 2.7rem;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 `
 
 const Logo = styled.img`
@@ -57,24 +75,13 @@ const Logo = styled.img`
 const Footer = () => {
   return (
     <Container>
-        <Content>
-          <Aliados>
-            <p>Aliados:</p>
-            <p>Adagio</p>
-            <p>Universidad Tecnológica del Perú</p>
-          </Aliados>
-          <LogoWrapper>
-            <Small>Produce:</Small>
-            <Logo src="images/Chimboteros logo.png" alt="chimboteros logo"/>
-          </LogoWrapper>
-          <Aliados>
-            <p>Aliados:</p>
-            <p>Ministerio de Cultura Chimbote</p>
-            <p>Dirscetur Subregión Pacífico</p>
-          </Aliados>
-        </Content>
+      <LogoWrapper>
+        <Small>Produce:</Small>
+        <Logo src="images/Chimboteros logo.png" alt="chimboteros logo"/>
+      </LogoWrapper>
+      <Address>La Gran Vía. Jr. Ladislao Espinar 625. Ofic. 26. Chimbote, Perú</Address>
     </Container>
-  )
+)
 }
 
 export default Footer

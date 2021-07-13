@@ -67,7 +67,7 @@ const Header = () => {
         <Logo src="/images/internautas logo.png"/>
         <Description>Nuevos tiempos de cambio empiezan a correr y nos inspiran a forjar un mundo vibrante de cultura, producción y turismo sostenible.</Description>
         {/* <DownloadButton>Ver más +</DownloadButton> */}
-        <Icon />
+        <a href="#presentacion"><Icon /></a>
       </Heading>
     </Container>
   )

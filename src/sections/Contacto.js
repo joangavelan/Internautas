@@ -8,7 +8,7 @@ const Container = styled.section`
   position: relative;
   padding: 15rem 3rem;
   color: ${colors.white};
-  background: url('images/Bahía de Chimbote.jpg') no-repeat bottom;
+  background: url('images/oficina.jpg') no-repeat bottom;
   background-size: cover;
   height: 125.8rem;
 
@@ -37,6 +37,7 @@ const Heading = styled.div`
 const Title = styled.h2`
   font-size: 8rem;
   font-weight: 500;
+  color: ${colors.dark};
 
   ${media.tablet`
     font-size: 4.5rem;
@@ -46,6 +47,7 @@ const Title = styled.h2`
 
 const Description = styled.em`
   font-size: 3.5rem;
+  color: ${colors.dark};
 
   ${media.tablet`
     font-size: 2.5rem;
@@ -78,6 +80,7 @@ const Label = styled.label`
   margin-left: 1.5rem;
   margin-bottom: 1rem;
   font-size: 2rem;
+  color: ${colors.dark};
 
   ${media.tablet`
     font-size: 1.8rem;
@@ -92,7 +95,8 @@ const Input = styled.input`
   border-radius: 3rem;
   padding: 1.3rem 2rem;
   color: ${colors.white};
-  background: rgba(255,255,255,0.2);
+  background: rgba(255,255,255, 0.8);
+  border: 1px solid #999;
 
   ${media.tablet`
     font-size: 1.8rem;
@@ -109,7 +113,8 @@ const Textarea = styled.textarea`
   border-radius: 3rem;
   padding: 1.3rem 2rem;
   color: ${colors.white};
-  background: rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.8);
+  border: 1px solid #999;
 `
 
 const Submit = styled.input`
@@ -123,6 +128,7 @@ const Submit = styled.input`
   border: none;
   cursor: pointer;
   margin: 0 auto;
+  font-weight: 600;
 
   ${media.tablet`
     font-size: 1.8rem;
