@@ -22,7 +22,7 @@ const Title = styled.h2`
   `}
 `
 
-const TagLine = styled.em`
+const TagLine = styled.i`
   display: inline-block;
   font-size: ${fontSizes.xl};
   color: ${props => colors[props.color]}; 

@@ -60,8 +60,8 @@ const Card = styled.div`
   }
 
   a {
-    font-size: 1.7rem;
-    color: #C32D4C;
+    font-size: 2.1rem;
+    color: ${colors.red};
     background: transparent;
   }
 `

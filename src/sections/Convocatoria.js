@@ -25,7 +25,6 @@ const Link = styled.a`
   color: ${colors.white};
   padding: .8rem 4.5rem;
   border-radius: 3.5rem;
-  font-weight: 500;
 
   ${media.tablet`
     font-size: 2rem;

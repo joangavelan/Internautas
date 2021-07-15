@@ -31,11 +31,14 @@ const Address = styled.div`
   width: 100%;
   position: absolute;
   bottom: 0;
+  left: 0;
   padding: 2rem;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   text-align: center;
   background-color: #000;
   color: #fff;
+  letter-spacing: .2px;
+  font-weight 300;
 `
 
 const Aliados = styled.div`

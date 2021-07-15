@@ -10,7 +10,7 @@ const Container = styled.section`
   color: ${colors.white};
   background: url('images/oficina.jpg') no-repeat bottom;
   background-size: cover;
-  height: 125.8rem;
+  height: 100vh;
 
   ${media.tablet`
     height: 100vh;
@@ -128,7 +128,6 @@ const Submit = styled.input`
   border: none;
   cursor: pointer;
   margin: 0 auto;
-  font-weight: 600;
 
   ${media.tablet`
     font-size: 1.8rem;

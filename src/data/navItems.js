@@ -9,11 +9,6 @@ export const navItems = [
     url: 'rutas'
   },
   {
-    id: 3,
-    name: 'Postulación',
-    url: 'postulacion'
-  },
-  {
     id: 4,
     name: 'Currícula',
     url: 'curricula'
@@ -22,6 +17,11 @@ export const navItems = [
     id: 5,
     name: 'Equipo',
     url: 'equipo'
+  },
+  {
+    id: 3,
+    name: 'Postulación',
+    url: 'postulacion'
   },
   {
     id: 6,
