@@ -14,18 +14,18 @@ const ProfileImage = styled.img`
 
 const Name = styled.h3`
   color: ${colors.green};
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 600;
   margin-bottom: 3px;
 `
 
 const Position = styled.i`
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: #434343;
 `
 
 const Description = styled.p`
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 1.5;
   margin: 1rem 0;
 `

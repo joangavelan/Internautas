@@ -15,7 +15,7 @@ const Container = styled.section`
 `
 
 const Grid = styled.div`
-  width: 120rem;
+  width: 130rem;
   max-width: 95%;
   margin: 0 auto;
   margin-top: 7rem;
