@@ -35,7 +35,6 @@ const Hamburger = styled(GiHamburgerMenu)`
   ${media.tablet`
     display: block;
     font-size: 2.3rem;
-    width: 6.3rem;
   `}
 `
 
@@ -46,7 +45,8 @@ const Icon = styled.img`
   margin: 0 2rem;
 
   ${media.tablet`
-    width: 2.3rem;
+    width: auto;
+    margin: 0;
     height: 2.3rem;
   `}
 `
