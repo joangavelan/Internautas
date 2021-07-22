@@ -8,10 +8,6 @@ const Container = styled.section`
   background: url('images/montañas.jpg') no-repeat bottom;
   background-size: cover;
   height: 100vh;
-
-  ${media.tablet`
-    padding: 5rem 3rem;
-  `}
 `
 
 const Rutas = () => {

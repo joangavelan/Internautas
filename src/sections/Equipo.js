@@ -12,6 +12,10 @@ const Container = styled.section`
   padding: 10rem 3rem;
   color: ${colors.white};
   height: 100vh;
+
+  ${media.tablet`
+    height: auto;
+  `}
 `
 
 const Grid = styled.div`
@@ -22,6 +26,10 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 2rem;
+
+  ${media.tablet`
+    grid-template-columns: repeat(2, 1fr);
+  `}
 `
 
 const Equipo = () => {

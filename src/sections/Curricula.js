@@ -12,7 +12,6 @@ const Container = styled.section`
   height: 100vh;
 
   ${media.tablet`
-    padding: 5rem 3rem;
     height: 150rem;
   `}
 `

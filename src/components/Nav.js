@@ -22,7 +22,7 @@ const Container = styled.div`
   backdrop-filter: saturate(100%) blur(5px);
 
   ${media.tablet`
-    justify-content: flex-end;
+    justify-content: space-between;
   `} 
 `
 
@@ -30,6 +30,7 @@ const Hamburger = styled(GiHamburgerMenu)`
   display: none;
   font-size: 2rem;
   cursor: pointer;
+  order: -1;
 
   ${media.tablet`
     display: block;
@@ -41,10 +42,6 @@ const Icon = styled.img`
   width: ${props => props.width};
   height: ${props => props.height};
   margin: 0 2rem;
-
-  ${media.tablet`
-    display: none;
-  `}
 `
 
 const NavItems = styled.nav`
@@ -77,7 +74,6 @@ const Item = styled.a`
 const Nav = () => {
 
   const [active, setActive] = useState(false);
-
   return (
     <Container>
       <a href="#header"><Icon src="/images/icon-on.png" alt="icon on" width='2rem' height='2rem'/></a>

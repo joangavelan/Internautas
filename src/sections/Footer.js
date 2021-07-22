@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import theme from '../styles/theme'
+import media from '../styles/media'
 const { colors } = theme;
 
 const Container = styled.footer`
@@ -24,7 +25,9 @@ const LogoWrapper = styled.div`
   left: 50%;
   transform: translateX(-50%);
   width: 60rem;
+  max-width: 100%;
   text-align: center;
+  padding: 0 3rem;
 `
 
 const Address = styled.div`
@@ -39,6 +42,10 @@ const Address = styled.div`
   color: #fff;
   letter-spacing: .2px;
   font-weight 300;
+
+  ${media.tablet`
+    font-size: 1.7rem;
+  `}
 `
 
 const Aliados = styled.div`
@@ -72,7 +79,7 @@ const Small = styled.small`
 
 const Logo = styled.img`
   display: block;
-  width: 100%;
+  max-width: 100%;
 `
 
 const Footer = () => {

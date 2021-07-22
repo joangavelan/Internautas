@@ -14,6 +14,7 @@ const Container = styled.header`
 
   ${media.tablet`
     height: 100vh;
+    background-position: 35% 100%;
   `}
 `
 
@@ -26,6 +27,10 @@ const Heading = styled.div`
   margin: 0 auto;
   color: ${colors.black};
   text-align: center;
+
+  ${media.netbook`
+    top: 30%;
+  `}
 `
 
 const Description = styled.p`
@@ -53,6 +58,10 @@ const Description = styled.p`
 
 const Logo = styled.img`
   width: 75%;
+
+  ${media.netbook`
+    width: 100%;
+  `}
 `
 
 const Icon = styled(BsChevronDown)`

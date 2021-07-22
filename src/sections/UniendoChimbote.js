@@ -12,7 +12,6 @@ const Container = styled.section`
   height: 100vh;
 
   ${media.tablet`
-    padding: 5rem 3rem;
     height: 100vh;
   `}
 `
@@ -30,7 +29,11 @@ const Img = styled.img`
   width: 90rem;
   display: block;
   margin: 0 auto;
-  margin-top: 5rem;
+
+  ${media.tablet`
+    width: 90%;
+    bottom: 20%;
+  `}
 `
 
 const UniendoChimbote = () => {
