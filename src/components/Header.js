@@ -29,7 +29,7 @@ const Heading = styled.div`
   text-align: center;
 
   ${media.netbook`
-    top: 30%;
+    top: 32%;
   `}
 `
 

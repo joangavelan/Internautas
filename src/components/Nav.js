@@ -34,6 +34,8 @@ const Hamburger = styled(GiHamburgerMenu)`
 
   ${media.tablet`
     display: block;
+    font-size: 2.3rem;
+    width: 6.3rem;
   `}
 `
 
@@ -42,6 +44,11 @@ const Icon = styled.img`
   width: ${props => props.width};
   height: ${props => props.height};
   margin: 0 2rem;
+
+  ${media.tablet`
+    width: 2.3rem;
+    height: 2.3rem;
+  `}
 `
 
 const NavItems = styled.nav`
