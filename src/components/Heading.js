@@ -42,6 +42,7 @@ const Description = styled.p`
 
   ${media.tablet`
     font-size: 1.8rem;
+    line-height: 1.45;
   `}
 `
 

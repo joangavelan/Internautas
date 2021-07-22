@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import theme from '../styles//theme'
+import media from '../styles//media'
 const { colors } = theme
 
 const Container = styled.div`
@@ -14,20 +15,32 @@ const ProfileImage = styled.img`
 
 const Name = styled.h3`
   color: ${colors.green};
-  font-size: 1.9rem;
+  font-size: 2.1rem;
   font-weight: 600;
   margin-bottom: 3px;
+
+  ${media.tablet`
+    font-size: 1.9rem;
+  `}
 `
 
 const Position = styled.i`
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #434343;
+
+  ${media.tablet`
+    font-size: 1.7rem;
+  `}
 `
 
 const Description = styled.p`
   font-size: 1.7rem;
   line-height: 1.5;
   margin: 1rem 0;
+
+  ${media.tablet`
+    font-size: 1.6rem;
+  `}
 `
 
 const TeamMember = ({path, name, position, description}) => {
