@@ -30,7 +30,7 @@ const Img = styled.img`
   display: block;
   margin: 0 auto;
 
-  ${media.tablet`
+  ${media.netbook`
     width: 90%;
     bottom: 20%;
   `}

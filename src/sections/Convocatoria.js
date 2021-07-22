@@ -13,6 +13,10 @@ const Container = styled.section`
   height: 175rem;
 
   ${media.netbook`
+    height: 145rem;
+  `}
+
+  ${media.tablet`
     height: 120rem;
   `}
 `
@@ -25,7 +29,7 @@ const Link = styled.a`
   padding: .8rem 4.5rem;
   border-radius: 3.5rem;
 
-  ${media.netbook`
+  ${media.tablet`
     font-size: 2rem;
     padding: 1.1rem 4.7rem;
   `}
@@ -54,7 +58,7 @@ const Cronograma = styled.div`
       margin: 5px 0;
       line-height: 1.75;
 
-      ${media.netbook`
+      ${media.tablet`
         justify-content: flex-start;
       `}
 
@@ -64,7 +68,7 @@ const Cronograma = styled.div`
         justify-content: space-between;
         font-weight: 500;
 
-        ${media.netbook`
+        ${media.tablet`
           width: 37%;
           line-height: 1.5;
       `}
@@ -76,7 +80,7 @@ const Cronograma = styled.div`
         text-align: left;
         padding-left: 4.5rem;
 
-        ${media.netbook`
+        ${media.tablet`
           padding-left: 1rem;
           width: 63%;
           line-height: 1.5;

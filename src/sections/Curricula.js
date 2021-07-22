@@ -11,7 +11,7 @@ const Container = styled.section`
   background-size: cover;
   height: 100vh;
 
-  ${media.tablet`
+  ${media.desktop`
     height: 150rem;
   `}
 `

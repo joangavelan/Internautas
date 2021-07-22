@@ -5,11 +5,12 @@ import theme from '../styles/theme'
 import Heading from '../components/Heading'
 import TeamMember from '../components/TeamMember'
 import { equipo } from '../data/equipo'
-const { colors, fontSizes } = theme;
+const { colors } = theme;
 
 const Container = styled.section`
   position: relative;
   padding: 10rem 3rem;
+  padding-top: 15rem;
   color: ${colors.white};
   height: 100vh;
 
