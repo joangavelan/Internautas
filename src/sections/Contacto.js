@@ -111,7 +111,7 @@ const Textarea = styled.textarea`
   outline: none;
   border-radius: 3rem;
   padding: 1.3rem 2rem;
-  color: ${colors.white};
+  color: ${colors.black};
   background: rgba(255,255,255,0.8);
   border: 1px solid #999;
 `
