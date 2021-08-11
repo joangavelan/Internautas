@@ -21,7 +21,7 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 80rem;
+  max-width: 70rem;
 `
 
 const Heading = styled.div`
