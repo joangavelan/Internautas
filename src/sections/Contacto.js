@@ -8,7 +8,7 @@ const Container = styled.section`
   position: relative;
   padding: 15rem 3rem;
   color: ${colors.white};
-  background: url('images/oficina.jpg') no-repeat bottom;
+  background: url('images/oficina chimboteros.jpg') no-repeat bottom;
   background-size: cover;
   height: 100vh;
 
@@ -93,7 +93,7 @@ const Input = styled.input`
   outline: none;
   border-radius: 3rem;
   padding: 1.3rem 2rem;
-  color: ${colors.white};
+  color: ${colors.black};
   background: rgba(255,255,255, 0.8);
   border: 1px solid #999;
 
