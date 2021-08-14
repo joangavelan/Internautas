@@ -6,7 +6,7 @@ const { colors, fontSizes, fonts } = theme;
 
 const Container = styled.section`
   position: relative;
-  padding: 15rem 3rem;
+  padding: 10rem 3rem;
   color: ${colors.white};
   background: url('images/oficina chimboteros.jpg') no-repeat bottom;
   background-size: cover;
@@ -21,7 +21,7 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 70rem;
+  max-width: 55rem;
 `
 
 const Heading = styled.div`
@@ -56,7 +56,8 @@ const Description = styled.em`
 const Form = styled.form`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 3rem;
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
   width: 100%;
   font-size: ${fontSizes.lg};
 
@@ -67,7 +68,6 @@ const Form = styled.form`
 
 const Entry = styled.div`
   grid-area: ${props => props.gridArea};
-  margin: 2rem 0;
 
   ${media.tablet`
     margin: 1rem 0;
