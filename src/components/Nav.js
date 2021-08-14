@@ -93,7 +93,7 @@ const Nav = () => {
           </Item>
         ))}
       </NavItems>
-      <a href="https://www.facebook.com/Internautasperu/" target="_blank">
+      <a href="https://www.facebook.com/Internautasperu/" target="_blank" rel="noreferrer">
         <Icon src="images/icon-fb.png" alt="whatsapp icon" width="2.2rem" height="2.2rem"/>
       </a>
       <Hamburger onClick={() => setActive(active => !active)}/>

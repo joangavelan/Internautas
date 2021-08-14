@@ -79,12 +79,12 @@ const Curricula = () => {
         <Card titleColor="green">
           <h3>Expediciones</h3>
           <p>Viajes vivenciales y campamentos en los miradores naturales de nuestra provincia, como el ancestral Monte de Chimbote, el histórico Cerro de la Juventud, la gran península El Ferrol y el inspirador mirador de Quillcay.</p>
-          <a href="/pdfs/Internautas (expediciones).pdf" target="_blank">Ver expediciones +</a>
+          <a href="/pdfs/Internautas (expediciones).pdf" target="_blank" rel="noreferrer">Ver expediciones +</a>
         </Card>
         <Card titleColor="blue">
           <h3>Talleres</h3>
           <p>Capacitaciones en desarrollo de aplicaciones, branding y diseño, gestión cultural, gestión turística y gestión de proyectos. Integrando toda la información en una plataforma única, sostenible y escalable.</p>
-          <a href="/pdfs/Internautas (talleres).pdf" target="_blank">Ver talleres +</a>
+          <a href="/pdfs/Internautas (talleres).pdf" target="_blank" rel="noreferrer">Ver talleres +</a>
         </Card>
       </Cards>
     </Container>

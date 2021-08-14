@@ -45,7 +45,8 @@ const Equipo = () => {
 
       <Grid>
         {equipo.map(member => (
-          <TeamMember 
+          <TeamMember
+            key={member.id}
             path={member.imgPath}          
             name={member.name}
             position={member.position}

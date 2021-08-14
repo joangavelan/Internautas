@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Heading from '../components/Heading'
-import media from '../styles/media'
 
 const Container = styled.section`
   padding: 10rem 3rem;
