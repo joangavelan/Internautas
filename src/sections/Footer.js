@@ -1,8 +1,5 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import theme from '../styles/theme'
-import media from '../styles/media'
-const { colors } = theme;
 
 const Container = styled.footer`
   position: relative;
@@ -10,13 +7,6 @@ const Container = styled.footer`
   height: 100vh;
   background: url('images/bahia de chimbote de noche.jpg') no-repeat bottom;
   background-size: cover;
-`
-
-const Content = styled.div`
-  max-width: 130rem;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
 `
 
 const LogoWrapper = styled.div`
@@ -30,46 +20,6 @@ const LogoWrapper = styled.div`
   padding: 0 3rem;
 `
 
-const Address = styled.div`
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 2rem;
-  font-size: 1.8rem;
-  text-align: center;
-  background-color: #000;
-  color: #fff;
-  letter-spacing: .2px;
-  font-weight 300;
-
-  ${media.tablet`
-    font-size: 1.7rem;
-  `}
-`
-
-const Aliados = styled.div`
-  width: 30rem;
-  color: ${colors.white};
-  font-size: 1.7rem;
-  text-align: center;
-
-  & > p {
-    text-transform: uppercase;
-    vertical-align: middle;
-    line-height: 1.45;
-  }
-
-  & > p:first-child {
-    margin-bottom: 4rem;
-  }
-  
-  & > p:not(:first-child) {
-    display: inline-block;
-    width: 50%;
-  }
-`
-
 const Small = styled.small`
   display: inline-block;
   font-size: 2.7rem;
@@ -80,6 +30,20 @@ const Small = styled.small`
 const Logo = styled.img`
   display: block;
   max-width: 100%;
+`
+
+const Address = styled.div`
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  font-size: 1.7rem;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: .2px;
+  font-weight 300;
 `
 
 const Footer = () => {

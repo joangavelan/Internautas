@@ -43,9 +43,9 @@ const UniendoChimbote = () => {
         <Heading
           title="Uniendo Chimbote"
           tagline="Hacia una red de cultura, producción y turismo"
-          description="Chimboteros convoca a jóvenes desarrolladores para culminar juntos una red que eduque a la ciudadanía en el autodescubrimiento de sus riquezas, la creación de cultura y el desarrollo del turismo."
+          description="Chimboteros convoca a jóvenes desarrolladores para culminar juntos una red digital que eduque en el autodescubrimiento de sus riquezas, la creación de cultura y el desarrollo del turismo."
           colors={{title: 'gold', text: 'white'}}
-          width="90rem"/>
+          width="84rem"/>
       </ContentWrapper>
       <Img src="images/Plataforma web Culturalismo.jpg" alt="Plataforma web culturalismo"/>
     </Container>

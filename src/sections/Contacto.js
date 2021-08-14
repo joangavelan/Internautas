@@ -88,7 +88,7 @@ const Label = styled.label`
 
 const Input = styled.input`
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.8rem;
   border: none;
   outline: none;
   border-radius: 3rem;
