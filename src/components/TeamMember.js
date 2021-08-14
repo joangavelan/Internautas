@@ -16,7 +16,7 @@ const ProfileImage = styled.img`
 const Name = styled.h3`
   color: ${colors.green};
   font-size: 2.1rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 3px;
 
   ${media.tablet`
@@ -26,7 +26,7 @@ const Name = styled.h3`
 
 const Position = styled.i`
   font-size: 1.8rem;
-  color: #434343;
+  color: #777;
 
   ${media.tablet`
     font-size: 1.7rem;

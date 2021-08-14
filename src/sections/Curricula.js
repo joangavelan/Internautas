@@ -33,7 +33,7 @@ const Cards = styled.div`
 const Card = styled.div`
   max-width: 51rem;
   background-color: ${colors.white};
-  padding: 5rem;  
+  padding: 5rem 5.5rem;  
   border-radius: 2.5rem;
   margin: 2rem;
 
@@ -79,12 +79,12 @@ const Curricula = () => {
         <Card titleColor="green">
           <h3>Expediciones</h3>
           <p>Viajes vivenciales y campamentos en los miradores naturales de nuestra provincia, como el ancestral Monte de Chimbote, el histórico Cerro de la Juventud, la gran península El Ferrol y el inspirador mirador de Quillcay.</p>
-          <a href="/pdfs/Internautas (expediciones).pdf" download>Ver expediciones +</a>
+          <a href="/pdfs/Internautas (expediciones).pdf" target="_blank">Ver expediciones +</a>
         </Card>
         <Card titleColor="blue">
           <h3>Talleres</h3>
           <p>Capacitaciones en desarrollo de aplicaciones, branding y diseño, gestión cultural, gestión turística y gestión de proyectos. Integrando toda la información en una plataforma única, sostenible y escalable.</p>
-          <a href="/pdfs/Internautas (talleres).pdf" download>Ver talleres +</a>
+          <a href="/pdfs/Internautas (talleres).pdf" target="_blank">Ver talleres +</a>
         </Card>
       </Cards>
     </Container>

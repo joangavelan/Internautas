@@ -10,7 +10,6 @@ const { colors } = theme;
 const Container = styled.section`
   position: relative;
   padding: 10rem 3rem;
-  padding-top: 15rem;
   color: ${colors.white};
   height: 100vh;
 
@@ -38,10 +37,10 @@ const Equipo = () => {
     <Container id="equipo">
       <Heading
         title="Equipo Creativo"
-        description="Un buen trabajo es posible gracias al talento especializado, al compromiso apasionado y a los valores compartidos de amigos chimboteros con una visión común: el cambio cultural."
-        tagline="Valores compartidos por un sentido común"
+        description="Un buen trabajo es posible gracias al talento, compromiso y valores compartidos de amigos chimboteros con una visión común: el cambio cultural."
+        tagline="Valores compartidos, una visión común"
         colors={{title: 'black', text: 'black'}}
-        width="80rem"
+        width="70rem"
       />
 
       <Grid>

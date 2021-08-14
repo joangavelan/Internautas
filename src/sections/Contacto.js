@@ -35,7 +35,7 @@ const Heading = styled.div`
 
 const Title = styled.h2`
   font-size: 8rem;
-  font-weight: 500;
+  font-weight: 600;
   color: ${colors.dark};
 
   ${media.tablet`
@@ -104,7 +104,7 @@ const Input = styled.input`
 
 const Textarea = styled.textarea`
   width: 100%;
-  height: 15rem;
+  height: 13rem;
   font-family: ${fonts.primary};
   font-size: 2rem;
   border: none;
@@ -121,7 +121,7 @@ const Submit = styled.input`
   font-size: 1.8rem;
   color: ${colors.white};
   background-color: ${colors.blue};
-  padding: .8rem 4.5rem;
+  padding: .8rem 4rem;
   border-radius: 3.5rem;
   outline: none;
   border: none;
@@ -130,7 +130,7 @@ const Submit = styled.input`
 
   ${media.tablet`
     font-size: 1.8rem;
-    padding: 1.3rem 4.2rem;
+    padding: 1.3rem 4rem;
   `}
 `
 

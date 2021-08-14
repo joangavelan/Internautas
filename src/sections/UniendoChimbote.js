@@ -26,7 +26,7 @@ const Img = styled.img`
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 90rem;
+  width: 85rem;
   display: block;
   margin: 0 auto;
 
