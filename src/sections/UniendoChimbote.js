@@ -2,14 +2,12 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import Heading from '../components/Heading';
 import media from '../styles/media'
-import theme from '../styles/theme'
-const { colors } = theme;
 
 const Container = styled.section`
   position: relative;
-  background-color: ${colors.black};
+  background-color: #000;
   padding: 10rem 3rem;
-  height: 100vh;
+  min-height: 100vh;
 
   ${media.tablet`
     height: 100vh;

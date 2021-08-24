@@ -12,7 +12,7 @@ const Container = styled.div`
 
 const Title = styled.h2`
   font-size: ${fontSizes.xxl};
-  font-weight: 600;
+  font-weight: 700;
   color: ${props => colors[props.color]};
   text-transform: capitalize;
   line-height: 1.2;
@@ -50,7 +50,7 @@ const Heading = ({title, tagline, description, width, colors}) => {
   return (
     <Container width={width}>
       <Title color={colors.title}>{title}</Title>
-      <TagLine color={colors.text}>{tagline}</TagLine>
+      {tagline && <TagLine color={colors.text}>{tagline}</TagLine>}
       <Description color={colors.text}>{description}</Description>
     </Container>
   )

@@ -10,6 +10,7 @@ import Convocatoria from './sections/Convocatoria'
 import Equipo from './sections/Equipo'
 import Contacto from './sections/Contacto'
 import Footer from './sections/Footer'
+import Aliados from './sections/Aliados'
 
 const AppContainer = styled.div`
   position: relative;
@@ -27,6 +28,7 @@ const App = () => {
       <Curricula />
       <Equipo />
       <Convocatoria />
+      <Aliados />
       <Contacto />
       <Footer /> 
 

@@ -14,7 +14,7 @@ const ProfileImage = styled.img`
 `
 
 const Name = styled.h3`
-  color: ${colors.green};
+  color: ${colors.gold};
   font-size: 2.1rem;
   font-weight: 500;
   margin-bottom: 3px;
@@ -26,7 +26,7 @@ const Name = styled.h3`
 
 const Position = styled.i`
   font-size: 1.8rem;
-  color: #777;
+  color: #ddd;
 
   ${media.tablet`
     font-size: 1.7rem;
@@ -37,16 +37,17 @@ const Description = styled.p`
   font-size: 1.7rem;
   line-height: 1.5;
   margin: 1rem 0;
+  color: ${colors.white};
 
   ${media.tablet`
     font-size: 1.6rem;
   `}
 `
 
-const TeamMember = ({path, name, position, description}) => {
+const TeamMember = ({imgPath, name, position, description}) => {
   return (
     <Container>
-      <ProfileImage src={`images/equipo/${path}.png`}/>
+      <ProfileImage src={`images/equipo/${imgPath}.png`}/>
       <Name>{name}</Name>
       <Position>{position}</Position>
       <Description>{description}</Description>
