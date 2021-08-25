@@ -36,7 +36,7 @@ const Link = styled.a`
 `
 
 const Cronograma = styled.div`
-  width: 60rem;
+  width: 65rem;
   max-width: 100%;
   margin: 5rem auto 3rem;
 
@@ -106,20 +106,24 @@ const Convocatoria = () => {
       <div>
         <div>
           <strong>Inicio de convocatoria<span>:</span></strong>
-          <p>01 de mayo, a las 00:00 hrs.</p>
+          <p>01 de septiembre, a las 00:00 hrs.</p>
         </div>
         <div>
           <strong>Cierre de convocatoria<span>:</span></strong>
-          <p>20 de mayo, a las 23:59 hrs.</p>
+          <p>20 de septiembre, a las 23:59 hrs.</p>
+        </div>
+        <div>
+          <strong>Publicación de pre-seleccionados<span>:</span></strong>
+          <p>23 de septiembre</p>
         </div>
         <div>
           <strong>Entrevistas individuales<span>:</span></strong>
-          <p>24 de junio, a las 16:00 hrs.</p>
+          <p>28 de septiembre</p>
         </div>
         <div>
           <strong>Publicación de seleccionados<span>:</span></strong>
           <div>
-            <p>25 de junio</p>
+            <p>01 de octubre</p>
             <p>internautas.pe/equipo</p>
             <p>facebook.com/internautasperu</p>
           </div>
@@ -127,7 +131,7 @@ const Convocatoria = () => {
         <div>
           <strong>Taller de inducción<span>:</span></strong>
           <div>
-            <p>01 de junio a las 16:00 hrs.</p>
+            <p>04 de octubre a las 16:00 hrs.</p>
             <p>Centro Cultural Centenario</p>
           </div>
         </div>

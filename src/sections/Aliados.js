@@ -15,7 +15,7 @@ const Container = styled.section`
 
 const List = styled.ul`
   max-width: 82rem;
-  height: 30.2rem;
+  height: 31.5rem;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@ const List = styled.ul`
   border-bottom: 1px solid ${colors.black};
 
   & > li {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 `
 

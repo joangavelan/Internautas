@@ -14,7 +14,6 @@ const Title = styled.h2`
   font-size: ${fontSizes.xxl};
   font-weight: 700;
   color: ${props => colors[props.color]};
-  text-transform: capitalize;
   line-height: 1.2;
 
   ${media.tablet`
