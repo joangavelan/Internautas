@@ -8,7 +8,7 @@ const { colors } = theme
 
 const Container = styled.section`
   min-height: 100vh;
-  background: url('images/pesca en el mar de chimbote.jpg') no-repeat center;
+  background: url('images/pesca en el mar de chimbote.jpg') no-repeat bottom;
   background-size: cover;
   padding: 10rem 3rem;
 `
