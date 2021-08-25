@@ -9,19 +9,24 @@ export const navItems = [
     url: 'rutas'
   },
   {
-    id: 4,
+    id: 3,
     name: 'Currícula',
     url: 'curricula'
   },
   {
-    id: 5,
+    id: 4,
     name: 'Equipo',
     url: 'equipo'
   },
   {
-    id: 3,
+    id: 5,
     name: 'Postulación',
     url: 'postulacion'
+  },
+  {
+    id: 6,
+    name: 'Aliados',
+    url: 'aliados'
   },
   {
     id: 6,

@@ -8,7 +8,7 @@ const { colors } = theme
 
 const Container = styled.section`
   min-height: 100vh;
-  background: url('images/pesca en el mar de chimbote.jpg') no-repeat center;
+  background: url('images/pesca en el mar de chimbote.jpg') no-repeat bottom;
   background-size: cover;
   padding: 10rem 3rem;
 `
@@ -47,7 +47,7 @@ const Button = styled.button`
 
 const Aliados = () => {
   return (
-    <Container>
+    <Container id="aliados">
       <Heading
         title="Aliados"
         description="Articulamos esfuerzos, conectando emprendimientos. Producimos valor cultural, compartiendo creatividad. Generando oportunidades para el bien común."
