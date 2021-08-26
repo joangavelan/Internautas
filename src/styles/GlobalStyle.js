@@ -20,6 +20,10 @@ const GlobalStyle = createGlobalStyle`
     ${media.netbook`
       font-size: 55.3%;
     `}
+
+    ${media.phablet`
+      font-size: 52.5%;
+    `}
   }
 
   body {

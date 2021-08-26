@@ -4,9 +4,12 @@ import Heading from '../components/Heading'
 
 const Container = styled.section`
   padding: 10rem 3rem;
-  background: url('images/rutas.jpg') no-repeat bottom;
-  background-size: cover;
-  height: 120rem
+`
+
+const Img = styled.img`
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 `
 
 const Rutas = () => {
@@ -19,6 +22,8 @@ const Rutas = () => {
         colors={{title: 'black', text: 'black'}}
         width="90rem"
       />
+
+      <Img src="images/culturalismo app en tablet.png" alt="tablet"/>
     </Container>
   )
 }

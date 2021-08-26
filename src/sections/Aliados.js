@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import theme from '../styles//theme'
+import media from '../styles/media'
 import { aliados } from '../data/aliados'
-import media from '../styles//media'
 import Heading from '../components/Heading'
 const { colors } = theme
 
@@ -29,6 +29,15 @@ const List = styled.ul`
   & > li {
     font-size: 1.5rem;
   }
+
+  ${media.tablet`
+    height: 60rem;
+  `}
+
+  ${media.phablet`
+    height: auto;
+    text-align: center;
+  `}
 `
 
 const Button = styled.button`

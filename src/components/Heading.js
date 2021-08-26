@@ -17,8 +17,9 @@ const Title = styled.h2`
   line-height: 1.2;
 
   ${media.tablet`
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: normal;
+    margin-bottom: 1rem;
   `}
 `
 
@@ -28,7 +29,7 @@ const TagLine = styled.i`
   color: ${props => colors[props.color]}; 
 
   ${media.tablet`
-    font-size: 2.1rem;
+    font-size: 2rem;
     line-height: 1.3;
   `}
 `

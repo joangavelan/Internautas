@@ -29,7 +29,7 @@ export const navItems = [
     url: 'aliados'
   },
   {
-    id: 6,
+    id: 7,
     name: 'Contacto',
     url: 'contacto'
   },
