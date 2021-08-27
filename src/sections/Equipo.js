@@ -26,7 +26,7 @@ const Grid = styled.div`
   grid-gap: 2rem;
 
   ${media.tablet`
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   `}
 `
 

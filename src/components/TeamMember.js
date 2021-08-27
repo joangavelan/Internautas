@@ -16,21 +16,13 @@ const ProfileImage = styled.img`
 const Name = styled.h3`
   color: ${colors.gold};
   font-size: 2.1rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 3px;
-
-  ${media.tablet`
-    font-size: 1.9rem;
-  `}
 `
 
 const Position = styled.i`
   font-size: 1.8rem;
   color: #ddd;
-
-  ${media.tablet`
-    font-size: 1.7rem;
-  `}
 `
 
 const Description = styled.p`
@@ -38,10 +30,6 @@ const Description = styled.p`
   line-height: 1.5;
   margin: 1rem 0;
   color: ${colors.white};
-
-  ${media.tablet`
-    font-size: 1.6rem;
-  `}
 `
 
 const TeamMember = ({imgPath, name, position, description}) => {
