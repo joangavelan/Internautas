@@ -6,11 +6,10 @@ import media from '../styles/media'
 const Container = styled.section`
   position: relative;
   background-color: #000;
-  padding: 10rem 3rem;
-  min-height: 100vh;
+  padding: 10rem 3rem 0;
 
   ${media.tablet`
-    height: 100vh;
+    padding: 5rem 2rem 0;
   `}
 `
 
@@ -20,18 +19,10 @@ const ContentWrapper = styled.div`
 ` 
 
 const Img = styled.img`
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
   width: 85rem;
+  max-width: 100%;
   display: block;
-  margin: 0 auto;
-
-  ${media.netbook`
-    width: 90%;
-    bottom: 20%;
-  `}
+  margin: 5rem auto 0;
 `
 
 const UniendoChimbote = () => {
