@@ -10,7 +10,7 @@ const Container = styled.section`
   color: ${colors.white};
   background: url('images/oficina chimboteros.jpg') no-repeat bottom;
   background-size: cover;
-  height: 100vh;
+  height: 85rem;
 
   ${media.tablet`
     height: 100vh;
@@ -94,7 +94,7 @@ const Input = styled.input`
   border-radius: 3rem;
   padding: 1.3rem 2rem;
   color: ${colors.black};
-  background: rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.6);
   border: 1px solid #999;
 
   ${media.tablet`
@@ -104,7 +104,7 @@ const Input = styled.input`
 
 const Textarea = styled.textarea`
   width: 100%;
-  height: 13rem;
+  height: 10rem;
   font-family: ${fonts.primary};
   font-size: 2rem;
   border: none;
@@ -112,7 +112,7 @@ const Textarea = styled.textarea`
   border-radius: 3rem;
   padding: 1.3rem 2rem;
   color: ${colors.black};
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.6);
   border: 1px solid #999;
 `
 

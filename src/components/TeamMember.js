@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import theme from '../styles//theme'
-import media from '../styles//media'
 const { colors } = theme
 
 const Container = styled.div`

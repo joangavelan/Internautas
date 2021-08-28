@@ -10,7 +10,7 @@ const Container = styled.section`
   background: url('images/Plataforma web Culturalismo en celulares.jpg') no-repeat bottom;
   background-size: 100%;
   text-align: center;
-  height: 175rem;
+  height: 169.7rem;
 
   ${media.netbook`
     height: 145rem;

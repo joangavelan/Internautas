@@ -8,8 +8,9 @@ import { equipo } from '../data/equipo'
 const Container = styled.section`
   position: relative;
   padding: 10rem 3rem;
-  height: 100vh;
-  background-color: #000;
+  height: 194rem;
+  background: url('images/equipo internautas.jpg') no-repeat bottom;
+  background-size: cover;
 
   ${media.tablet`
     height: auto;

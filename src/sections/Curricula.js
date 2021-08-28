@@ -10,19 +10,15 @@ const Container = styled.section`
   padding: 10rem 3rem;
   background: url('images/montañas.jpg') no-repeat bottom;
   background-size: cover;
-  min-height: 100vh;
+  height: 145.4rem;
 `
 
 const Cards = styled.div`
   width: 100%;
-  position: absolute;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  bottom: 3rem;
-  left: 50%;
-  transform: translateX(-50%);
 `
 
 const Card = styled.div`
