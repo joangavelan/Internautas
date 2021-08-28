@@ -92,7 +92,7 @@ const Input = styled.input`
   border: none;
   outline: none;
   border-radius: 3rem;
-  padding: 1.3rem 2rem;
+  padding: 1rem 2rem;
   color: ${colors.black};
   background: rgba(255,255,255, 0.6);
   border: 1px solid #999;
@@ -104,9 +104,9 @@ const Input = styled.input`
 
 const Textarea = styled.textarea`
   width: 100%;
-  height: 10rem;
+  height: 8rem;
   font-family: ${fonts.primary};
-  font-size: 2rem;
+  font-size: 1.8rem;
   border: none;
   outline: none;
   border-radius: 3rem;
@@ -126,7 +126,7 @@ const Submit = styled.input`
   outline: none;
   border: none;
   cursor: pointer;
-  margin: 0 auto;
+  margin: 2rem auto 0;
 
   ${media.tablet`
     font-size: 1.8rem;

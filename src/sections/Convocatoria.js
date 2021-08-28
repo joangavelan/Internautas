@@ -139,7 +139,7 @@ const Convocatoria = () => {
      </Cronograma>
 
       <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf8K65MQeEDn7ZZ1GfEhGSBC_elTcaFlBWAU6NRtVfNL7SRkA/viewform?fbclid=IwAR30JWRJr3UohfKCpYK25YhNW-gpCiQDeW6P6fqQaEr16J1bJRfwlRWE3qs" target="_blank">
-        Postula
+        Postular
       </Link>
     </Container>
   )

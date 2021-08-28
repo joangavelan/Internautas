@@ -53,7 +53,7 @@ const Footer = () => {
         <Small>Produce:</Small>
         <Logo src="images/Chimboteros logo.png" alt="chimboteros logo"/>
       </LogoWrapper>
-      <Address>La Gran Vía. Jr. Ladislao Espinar 625. Ofic. 26. Chimbote, Perú</Address>
+      <Address>Jr. Ladislao Espinar 625. Ofic. 26. Chimbote, Perú</Address>
     </Container>
 )
 }

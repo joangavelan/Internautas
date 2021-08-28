@@ -11,6 +11,10 @@ const Container = styled.section`
   background-size: cover;
   padding: 10rem 3rem;
   height: 120.8rem;
+
+  ${media.tablet`
+    height: auto;
+  `}
 `
 
 const List = styled.ul`
@@ -59,6 +63,7 @@ const Aliados = () => {
     <Container id="aliados">
       <Heading
         title="Aliados"
+        tagline="juntos por el bien común"
         description="Articulamos esfuerzos, conectando emprendimientos. Producimos valor cultural, compartiendo creatividad. Generando oportunidades para el bien común."
         colors={{title: 'black', text: 'black'}}
         width="82rem"

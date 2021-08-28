@@ -8,6 +8,7 @@ const Container = styled.section`
 
 const Img = styled.img`
   display: block;
+  width: 130rem;
   max-width: 100%;
   margin: 0 auto;
 `
