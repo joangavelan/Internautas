@@ -34,7 +34,7 @@ const List = styled.ul`
     font-size: 1.5rem;
   }
 
-  ${media.phablet`
+  ${media.tablet`
     height: auto;
     text-align: center;
   `}
