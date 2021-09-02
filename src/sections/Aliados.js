@@ -19,7 +19,7 @@ const Container = styled.section`
 
 const List = styled.ul`
   max-width: 82rem;
-  height: 31.5rem;
+  height: 28.4rem;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
@@ -33,10 +33,6 @@ const List = styled.ul`
   & > li {
     font-size: 1.5rem;
   }
-
-  ${media.tablet`
-    height: 60rem;
-  `}
 
   ${media.phablet`
     height: auto;
