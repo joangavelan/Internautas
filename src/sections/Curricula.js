@@ -19,6 +19,16 @@ const Cards = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+
+  ${media.tablet`
+    & > div:first-child {
+      order: 1;
+    }
+
+    & > div:last-child {
+      order: 0; 
+    }
+  `}
 `
 
 const Card = styled.div`

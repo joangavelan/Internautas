@@ -14,6 +14,8 @@ const Container = styled.section`
 
   ${media.tablet`
     height: auto;
+    padding-bottom: 35rem;
+    background: url('images/mobile/pesca en el mar de chimbote.jpg') no-repeat bottom;
   `}
 `
 
@@ -37,6 +39,8 @@ const List = styled.ul`
   ${media.tablet`
     height: auto;
     text-align: center;
+    border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
   `}
 `
 

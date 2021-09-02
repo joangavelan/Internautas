@@ -14,6 +14,8 @@ const Container = styled.section`
 
   ${media.tablet`
     height: 100vh;
+    background: url('images/mobile/muelle chimbote.jpg') no-repeat bottom;
+    height: 77.5rem;
   `}
 `
 
@@ -41,6 +43,7 @@ const Title = styled.h2`
   ${media.tablet`
     font-size: 4.5rem;
     margin-bottom: .5rem;
+    color: white;
   `}
 `
 
@@ -50,6 +53,7 @@ const Description = styled.em`
 
   ${media.tablet`
     font-size: 2.5rem;
+    color: white;
   `}
 `
 
@@ -62,7 +66,9 @@ const Form = styled.form`
   font-size: ${fontSizes.lg};
 
   ${media.tablet`
-    grid-column-gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 0;
   `}
 `
 
@@ -83,6 +89,8 @@ const Label = styled.label`
 
   ${media.tablet`
     font-size: 1.8rem;
+    color: white;
+    margin-left: 0;
   `}
 `
 
@@ -99,6 +107,7 @@ const Input = styled.input`
 
   ${media.tablet`
     font-size: 1.8rem;
+    padding: 1.2rem 2rem;
   `}
 `
 
@@ -129,8 +138,10 @@ const Submit = styled.input`
   margin: 2rem auto 0;
 
   ${media.tablet`
-    font-size: 1.8rem;
-    padding: 1.3rem 4rem;
+    font-size: 1.5rem;
+    background-color: #000;
+    border: 1px solid #fff;
+    padding: .75rem 3.5rem;
   `}
 `
 

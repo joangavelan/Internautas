@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import { media } from '../styles/media'
 
 const Container = styled.footer`
   position: relative;
@@ -7,6 +8,10 @@ const Container = styled.footer`
   height: 100vh;
   background: url('images/bahia de chimbote de noche.jpg') no-repeat bottom;
   background-size: cover;
+
+  ${media.tablet`
+    display: none;
+  `}
 `
 
 const LogoWrapper = styled.div`
@@ -32,20 +37,6 @@ const Logo = styled.img`
   max-width: 100%;
 `
 
-const Address = styled.div`
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 2rem;
-  font-size: 1.7rem;
-  text-align: center;
-  background-color: #000;
-  color: #fff;
-  letter-spacing: .2px;
-  font-weight 300;
-`
-
 const Footer = () => {
   return (
     <Container>
@@ -53,7 +44,6 @@ const Footer = () => {
         <Small>Produce:</Small>
         <Logo src="images/Chimboteros logo.png" alt="chimboteros logo"/>
       </LogoWrapper>
-      <Address>Jr. Ladislao Espinar 625. Ofic. 26. Chimbote, Perú</Address>
     </Container>
 )
 }

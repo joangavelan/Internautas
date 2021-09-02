@@ -14,6 +14,7 @@ const Container = styled.section`
 
   ${media.tablet`
     height: auto;
+    background: #000;
   `}
 `
 

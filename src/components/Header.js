@@ -14,7 +14,7 @@ const Container = styled.header`
 
   ${media.tablet`
     height: 100vh;
-    background-position: 35% 100%;
+    background: url('images/mobile/kayak.jpg') no-repeat bottom;
   `}
 `
 

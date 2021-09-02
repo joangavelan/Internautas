@@ -17,7 +17,8 @@ const Container = styled.section`
   `}
 
   ${media.tablet`
-    height: 120rem;
+    background: url('images/mobile/celulares.jpg') no-repeat bottom;
+    height: 160rem;
   `}
 `
 

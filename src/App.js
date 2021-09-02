@@ -11,6 +11,7 @@ import Equipo from './sections/Equipo'
 import Contacto from './sections/Contacto'
 import Footer from './sections/Footer'
 import Aliados from './sections/Aliados'
+import Address from './components/Address'
 
 const AppContainer = styled.div`
   position: relative;
@@ -31,6 +32,7 @@ const App = () => {
       <Aliados />
       <Contacto />
       <Footer /> 
+      <Address />
 
     </AppContainer>
   )
