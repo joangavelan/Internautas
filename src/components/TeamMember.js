@@ -9,7 +9,7 @@ const Container = styled.div`
 
 const ProfileImage = styled.img`
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 `
 
 const Name = styled.h3`

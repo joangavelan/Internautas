@@ -12,9 +12,10 @@ const Container = styled.header`
   background: url('images/kayak.jpg') no-repeat bottom;
   background-size: cover;
 
-  ${media.tablet`
-    height: 100vh;
+  ${media.phone`
+    height: 78rem;
     background: url('images/mobile/kayak.jpg') no-repeat bottom;
+    background-size: cover;
   `}
 `
 
@@ -28,8 +29,9 @@ const Heading = styled.div`
   color: ${colors.black};
   text-align: center;
 
-  ${media.netbook`
-    top: 32%;
+  ${media.phone`
+    width: 29rem;
+    top: 29rem;
   `}
 `
 
@@ -39,8 +41,8 @@ const Description = styled.p`
   margin-bottom: 1.5rem;
   line-height: 1.7;
 
-  ${media.netbook`
-    font-size: 2rem;
+  ${media.phone`
+    font-size: 1.5rem;
   `}
 `
 
@@ -65,8 +67,8 @@ const Logo = styled.img`
 `
 
 const Icon = styled(BsChevronDown)`
-  font-size: 3.5rem;
-  color: ${colors.rose};
+  font-size: 3rem;
+  color: #FF000C;
 `
 
 const Header = () => {

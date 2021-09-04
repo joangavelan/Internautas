@@ -29,6 +29,7 @@ const Grid = styled.div`
 
   ${media.tablet`
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
   `}
 `
 
@@ -37,7 +38,7 @@ const Equipo = () => {
     <Container id="equipo">
       <Heading
         title="Equipo Creativo"
-        description="Un buen trabajo es posible gracias al talento, compromiso y valores compartidos de amigos chimboteros con una visión común: el cambio cultural."
+        description="Un buen trabajo es posible gracias al talento y compromiso de amigos chimboteros con una visión común: el cambio cultural."
         tagline="Valores compartidos, una visión común"
         colors={{title: 'gold', text: 'white'}}
         width="70rem"

@@ -12,10 +12,10 @@ const Container = styled.section`
   padding: 10rem 3rem;
   height: 120.8rem;
 
-  ${media.tablet`
-    height: auto;
-    padding-bottom: 35rem;
+  ${media.phone`
     background: url('images/mobile/pesca en el mar de chimbote.jpg') no-repeat bottom;
+    background-size: contain;
+    height: 170rem;
   `}
 `
 
@@ -40,22 +40,36 @@ const List = styled.ul`
     height: auto;
     text-align: center;
     border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
+    border-bottom: 1px solid #999;
   `}
 `
 
 const Button = styled.button`
   display: block;
-  width: 12rem;
-  padding: 1rem;
+  width: 11rem;
+  padding: 7px;
   margin: 0 auto;
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.8rem;
   color: #fff;
-  background-color: #FE0066;
+  background-color: ${colors.blue};
   border: none;
   outline: none;
   border-radius: 50rem;
+  transition: .3s ease;
+  border: 1px solid ${colors.blue};
+
+  ${media.phone`
+    font-size: 1.5rem;
+    padding: 5px;
+  `}
+
+  &:hover {
+    ${media.phone`
+      color: #111;
+      background-color: #fff;
+      border: 1px solid #111;
+    `}
+  }
 `
 
 const Aliados = () => {

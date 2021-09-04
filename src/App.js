@@ -27,8 +27,8 @@ const App = () => {
       <RedChimboteros />
       <Rutas />
       <Curricula />
-      <Equipo />
       <Convocatoria />
+      <Equipo />
       <Aliados />
       <Contacto />
       <Footer /> 

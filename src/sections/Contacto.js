@@ -12,7 +12,7 @@ const Container = styled.section`
   background-size: cover;
   height: 85rem;
 
-  ${media.tablet`
+  ${media.phone`
     height: 100vh;
     background: url('images/mobile/muelle chimbote.jpg') no-repeat bottom;
     height: 77.5rem;
@@ -30,7 +30,7 @@ const Heading = styled.div`
   margin: 0 auto 4rem;
   text-align: center;
 
-  ${media.tablet`
+  ${media.phone`
     margin-bottom: 2.5rem;
   `}
 `
@@ -40,7 +40,7 @@ const Title = styled.h2`
   font-weight: 600;
   color: ${colors.dark};
 
-  ${media.tablet`
+  ${media.phone`
     font-size: 4.5rem;
     margin-bottom: .5rem;
     color: white;
@@ -51,7 +51,7 @@ const Description = styled.em`
   font-size: 3.5rem;
   color: ${colors.dark};
 
-  ${media.tablet`
+  ${media.phone`
     font-size: 2.5rem;
     color: white;
   `}
@@ -65,7 +65,9 @@ const Form = styled.form`
   width: 100%;
   font-size: ${fontSizes.lg};
 
-  ${media.tablet`
+  ${media.phone`
+    width: 30rem;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     grid-row-gap: 0;
@@ -75,7 +77,7 @@ const Form = styled.form`
 const Entry = styled.div`
   grid-area: ${props => props.gridArea};
 
-  ${media.tablet`
+  ${media.phone`
     margin: 1rem 0;
   `}
 `
@@ -87,7 +89,7 @@ const Label = styled.label`
   font-size: 2rem;
   color: ${colors.dark};
 
-  ${media.tablet`
+  ${media.phone`
     font-size: 1.8rem;
     color: white;
     margin-left: 0;
@@ -105,7 +107,7 @@ const Input = styled.input`
   background: rgba(255,255,255, 0.6);
   border: 1px solid #999;
 
-  ${media.tablet`
+  ${media.phone`
     font-size: 1.8rem;
     padding: 1.2rem 2rem;
   `}
@@ -126,23 +128,33 @@ const Textarea = styled.textarea`
 `
 
 const Submit = styled.input`
+  width: 11rem;
   display: block;
   font-size: 1.8rem;
   color: ${colors.white};
   background-color: ${colors.blue};
-  padding: .8rem 4rem;
+  padding: 7px;
   border-radius: 3.5rem;
   outline: none;
   border: none;
   cursor: pointer;
   margin: 2rem auto 0;
+  transition: .3s ease;
 
-  ${media.tablet`
+  ${media.phone`
     font-size: 1.5rem;
-    background-color: #000;
+    padding: 5px;
+    background-color: #111;
     border: 1px solid #fff;
-    padding: .75rem 3.5rem;
+    margin 1rem auto 0;
   `}
+
+  &:hover {
+    ${media.phone`
+      color: #111;
+      background-color: #fff;
+    `}
+  }
 `
 
 const Contacto = () => {

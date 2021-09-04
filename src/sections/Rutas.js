@@ -1,9 +1,14 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Heading from '../components/Heading'
+import { media } from '../styles/media'
 
 const Container = styled.section`
   padding: 10rem 3rem;
+
+  ${media.phone`
+    padding: 10rem 3rem 0;
+  `}
 `
 
 const Img = styled.img`
@@ -11,6 +16,10 @@ const Img = styled.img`
   width: 130rem;
   max-width: 100%;
   margin: 0 auto;
+
+  ${media.phone`
+    margin-top: 5rem;
+  `}
 `
 
 const Rutas = () => {
@@ -19,7 +28,7 @@ const Rutas = () => {
       <Heading
         title="Las Rutas de Chimbote"
         tagline="Uniendo los valores de la gente y sus riquezas"
-        description="En nuestra provincia conviven misteriosamente riquezas por revalorar, mediante rutas con proyección turística, para compartir sus oportunidades y unir a su gente de la manera más sencilla e inspiradora."
+        description="En nuestra provincia existen recursos por revalorar mediante rutas turísticas, que brindarán oportunidades y unirán a nuestra gente de la manera más sencilla e inspiradora."
         colors={{title: 'black', text: 'black'}}
         width="90rem"
       />

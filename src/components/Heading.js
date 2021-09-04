@@ -16,7 +16,7 @@ const Title = styled.h2`
   color: ${props => colors[props.color]};
   line-height: 1.2;
 
-  ${media.tablet`
+  ${media.phone`
     font-size: 3.5rem;
     line-height: normal;
     margin-bottom: 1rem;
@@ -28,7 +28,7 @@ const TagLine = styled.i`
   font-size: ${fontSizes.xl};
   color: ${props => colors[props.color]}; 
 
-  ${media.tablet`
+  ${media.phone`
     font-size: 2rem;
     line-height: 1.3;
   `}
@@ -40,9 +40,10 @@ const Description = styled.p`
   color: ${props => colors[props.color]}; 
   margin: 3rem 0;
 
-  ${media.tablet`
+  ${media.phone`
     font-size: 1.8rem;
     line-height: 1.45;
+    margin: 2rem 0;
   `}
 `
 

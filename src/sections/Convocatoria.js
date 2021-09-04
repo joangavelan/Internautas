@@ -12,28 +12,36 @@ const Container = styled.section`
   text-align: center;
   height: 169.7rem;
 
-  ${media.netbook`
-    height: 145rem;
-  `}
-
-  ${media.tablet`
+  ${media.phone`
     background: url('images/mobile/celulares.jpg') no-repeat bottom;
-    height: 160rem;
+    height: 143rem;
+    background-size: contain;
   `}
 `
 
 const Link = styled.a`
+  width: 11rem;
   display: inline-block;
   font-size: 1.8rem;
   background-color: #0242BE;
   color: ${colors.white};
-  padding: .8rem 4.5rem;
+  padding: 7px;
   border-radius: 3.5rem;
+  border: 1px solid #0242BE;
+  transition .3s ease;
 
-  ${media.tablet`
-    font-size: 2rem;
-    padding: 1.1rem 4.7rem;
+  ${media.phone`
+    font-size: 1.5rem;
+    padding: 5px;
   `}
+
+  &:hover {
+    ${media.phone`
+      border: 1px solid #111;
+      color: #111;
+      background-color: #fff;
+    `}
+  }
 `
 
 const Cronograma = styled.div`
@@ -43,7 +51,11 @@ const Cronograma = styled.div`
 
   & > h3 {
     font-size: 3.5rem;
-    font-weight: 600
+    font-weight: 600;
+
+    ${media.phone`
+      font-size: 2.3rem;
+    `}
   }
 
   & > div {
@@ -59,8 +71,9 @@ const Cronograma = styled.div`
       margin: 5px 0;
       line-height: 1.75;
 
-      ${media.tablet`
-        justify-content: flex-start;
+      ${media.phone`
+        flex-direction: column;
+        align-items: center;
       `}
 
       & > strong {
@@ -69,10 +82,16 @@ const Cronograma = styled.div`
         justify-content: space-between;
         font-weight: 500;
 
-        ${media.tablet`
-          width: 37%;
+        & > span {
+          ${media.phone`
+            display: none;
+          `}
+        }
+
+        ${media.phone`
+          width: auto;
           line-height: 1.5;
-      `}
+        `}
       }
 
       & > p, 
@@ -81,10 +100,11 @@ const Cronograma = styled.div`
         text-align: left;
         padding-left: 4.5rem;
 
-        ${media.tablet`
-          padding-left: 1rem;
-          width: 63%;
+        ${media.phone`
+          padding-left: 0;
+          width: auto;
           line-height: 1.5;
+          text-align: center;
         `}
       }
     }
@@ -97,7 +117,7 @@ const Convocatoria = () => {
       <Heading 
         title="Convocatoria"
         tagline="beneficios de postulación"
-        description="Jóvenes desarrolladores con disponibilidad para participar en talleres gratuitos, cobertura integral de expediciones y la posibilidad de ser miembro asociado de una plataforma digital escalable a nivel nacional."
+        description="Convocamos a jóvenes desarrolladores con disponibilidad para participar en expediciones y talleres gratuitos, y la oportunidad de ser miembro de una plataforma digital escalable a nivel nacional."
         colors={{title: 'blue', text: 'black'}}
         width="95rem"
       />

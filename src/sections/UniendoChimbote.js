@@ -1,16 +1,11 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Heading from '../components/Heading';
-import media from '../styles/media'
 
 const Container = styled.section`
   position: relative;
   background-color: #fff;
   padding: 10rem 3rem 0;
-
-  ${media.tablet`
-    padding: 5rem 2rem 0;
-  `}
 `
 
 const ContentWrapper = styled.div`
@@ -32,7 +27,7 @@ const UniendoChimbote = () => {
         <Heading
           title="Uniendo Chimbote"
           tagline="Hacia una red de cultura, producción y turismo"
-          description="Chimboteros convoca a jóvenes desarrolladores para culminar juntos una red digital que eduque en el autodescubrimiento de sus riquezas, la creación de cultura y el desarrollo del turismo."
+          description="Chimboteros investiga la provincia del Santa con el propósito de desarrollar una red digital que nos eduque en el descubimiento de nuestras riquezas, la creación de cultura y el desarrollo del turismo."
           colors={{title: 'black', text: 'black'}}
           width="84rem"/>
       </ContentWrapper>
