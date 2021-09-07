@@ -140,6 +140,7 @@ const Submit = styled.input`
   cursor: pointer;
   margin: 2rem auto 0;
   transition: .3s ease;
+  border: 1px solid ${colors.blue};
 
   ${media.phone`
     font-size: 1.5rem;
@@ -150,10 +151,9 @@ const Submit = styled.input`
   `}
 
   &:hover {
-    ${media.phone`
-      color: #111;
-      background-color: #fff;
-    `}
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #111;
   }
 `
 

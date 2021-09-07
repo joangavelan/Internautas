@@ -36,11 +36,9 @@ const Link = styled.a`
   `}
 
   &:hover {
-    ${media.phone`
-      border: 1px solid #111;
-      color: #111;
-      background-color: #fff;
-    `}
+    border: 1px solid #111;
+    color: #111;
+    background-color: #fff;
   }
 `
 
