@@ -167,7 +167,7 @@ const Contacto = () => {
           <Description>Consultas y sugerencias</Description>
         </Heading>
         {/* form */}
-        <Form name="contact" netlify>
+        <Form name="contact-form" method="POST" data-netlify="true">
           {/* name */}
           <Entry gridArea="1 / 1 / 2 / 2">
             <Label htmlFor="name">Nombres: </Label>

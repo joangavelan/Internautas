@@ -27,6 +27,15 @@
     <title>Internautas</title>
   </head>
   <body>
+    <form name="contact-form" netlify netlify-honeyspot="bot-field" action="/" hidden>
+
+      <input type="hidden" name="form-name" value="contact-form">
+
+      <input id="name" type="text" name="name" required/>
+      <input id="email" type="email" name="email" required/>
+      <textarea id="message" name="message" row="10" cols="50" required></textarea>
+    </form>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
