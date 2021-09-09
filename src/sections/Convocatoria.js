@@ -36,8 +36,8 @@ const Link = styled.a`
   `}
 
   &:hover {
-    border: 1px solid #111;
-    color: #111;
+    border: 1px solid ${colors.blue};
+    color: ${colors.blue};
     background-color: #fff;
   }
 `

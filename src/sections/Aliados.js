@@ -64,9 +64,9 @@ const Link = styled.a`
   `}
 
   &:hover {
-    color: #111;
+    color: ${colors.blue};
     background-color: #fff;
-    border: 1px solid #111;
+    border: 1px solid ${colors.blue};
   }
 `;
 
