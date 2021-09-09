@@ -21,11 +21,11 @@ const Name = styled.h3`
 
 const Position = styled.i`
   font-size: 1.8rem;
-  color: #ddd;
+  color: #A6A6A6;
 `
 
 const Description = styled.p`
-  font-size: 1.7rem;
+  font-size: 1.65rem;
   line-height: 1.5;
   margin: 1rem 0;
   color: ${colors.white};
