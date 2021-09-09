@@ -29,7 +29,7 @@ const UniendoChimbote = () => {
           tagline="Hacia una red de cultura, producción y turismo"
           description="Chimboteros investiga la provincia del Santa con el propósito de desarrollar una red digital que nos eduque en el descubimiento de nuestras riquezas, la creación de cultura y el desarrollo del turismo."
           colors={{title: 'black', text: 'black'}}
-          width="84rem"/>
+          width="87rem"/>
       </ContentWrapper>
       <Img src="images/Plataforma web Culturalismo.png" alt="Plataforma web culturalismo"/>
     </Container>
