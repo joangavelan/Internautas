@@ -125,24 +125,24 @@ const Convocatoria = () => {
       <div>
         <div>
           <strong>Inicio de convocatoria<span>:</span></strong>
-          <p>01 de septiembre, a las 00:00 hrs.</p>
+          <p>15 de septiembre, a las 00:00 hrs.</p>
         </div>
         <div>
           <strong>Cierre de convocatoria<span>:</span></strong>
-          <p>20 de septiembre, a las 23:59 hrs.</p>
+          <p>5 de octubre, a las 23:59 hrs.</p>
         </div>
         <div>
           <strong>Publicación de pre-seleccionados<span>:</span></strong>
-          <p>23 de septiembre</p>
+          <p>8 de octubre</p>
         </div>
         <div>
           <strong>Entrevistas individuales<span>:</span></strong>
-          <p>28 de septiembre</p>
+          <p>12 de octubre</p>
         </div>
         <div>
           <strong>Publicación de seleccionados<span>:</span></strong>
           <div>
-            <p>01 de octubre</p>
+            <p>15 de octubre</p>
             <p>internautas.pe/equipo</p>
             <p>facebook.com/internautasperu</p>
           </div>
@@ -150,8 +150,7 @@ const Convocatoria = () => {
         <div>
           <strong>Taller de inducción<span>:</span></strong>
           <div>
-            <p>04 de octubre a las 16:00 hrs.</p>
-            <p>Centro Cultural Centenario</p>
+            <p>18 de octubre a las 16:00 hrs.</p>
           </div>
         </div>
       </div>
