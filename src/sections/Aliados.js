@@ -75,7 +75,7 @@ const Aliados = () => {
     <Container id="aliados">
       <Heading
         title="Aliados"
-        tagline="juntos por el bien común"
+        tagline="Juntos por el bien común"
         description="Articulamos esfuerzos, conectando emprendimientos. Producimos valor cultural, compartiendo creatividad. Generando oportunidades para el bien común."
         colors={{ title: "black", text: "black" }}
         width="82rem"

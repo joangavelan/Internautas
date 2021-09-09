@@ -114,7 +114,7 @@ const Convocatoria = () => {
     <Container id="postulacion">
       <Heading 
         title="Convocatoria"
-        tagline="beneficios de postulación"
+        tagline="Beneficios de postulación"
         description="Convocamos a jóvenes desarrolladores con disponibilidad para participar en expediciones y talleres gratuitos, y la oportunidad de ser miembro de una plataforma digital escalable a nivel nacional."
         colors={{title: 'blue', text: 'black'}}
         width="95rem"

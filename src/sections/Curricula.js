@@ -81,7 +81,7 @@ const Curricula = () => {
       <Heading
         title="Currícula"
         tagline="Talleres y expediciones"
-        description="Llevar a nuestra provincia de ser dependiente de la agricultura de subsistencia y la pesca industrial, a ser más productiva orientada al turismo, significa comprender su historia, su patrimonio y territorio."
+        description="Llevar a nuestra provincia de ser dependiente de la agricultura de subsistencia y la pesca industrial, a ser más productiva orientada al turismo, significa comprender su historia, patrimonio y territorio."
         colors={{ title: "black", text: "black" }}
         width="92rem"
       />

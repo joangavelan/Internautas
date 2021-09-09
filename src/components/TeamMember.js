@@ -15,7 +15,7 @@ const ProfileImage = styled.img`
 const Name = styled.h3`
   color: ${colors.gold};
   font-size: 2.1rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 3px;
 `
 
@@ -25,8 +25,9 @@ const Position = styled.i`
 `
 
 const Description = styled.p`
-  font-size: 1.65rem;
+  font-size: 1.6rem;
   line-height: 1.5;
+  font-weight: 300;
   margin: 1rem 0;
   color: ${colors.white};
 `
@@ -37,7 +38,7 @@ const TeamMember = ({imgPath, name, position, description}) => {
       <ProfileImage src={`images/equipo/${imgPath}.png`}/>
       <Name>{name}</Name>
       <Position>{position}</Position>
-      <Description>{description}</Description>
+      <Description dangerouslySetInnerHTML={{__html: description}}/>
     </Container>
   )
 }

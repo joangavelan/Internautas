@@ -15,13 +15,13 @@ export const navItems = [
   },
   {
     id: 4,
-    name: 'Equipo',
-    url: 'equipo'
+    name: 'Postulación',
+    url: 'postulacion'
   },
   {
     id: 5,
-    name: 'Postulación',
-    url: 'postulacion'
+    name: 'Equipo',
+    url: 'equipo'
   },
   {
     id: 6,
