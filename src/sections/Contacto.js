@@ -127,7 +127,7 @@ const Textarea = styled.textarea`
   border: 1px solid #999;
 `
 
-const Submit = styled.input`
+const Submit = styled.button`
   width: 11rem;
   display: block;
   font-size: 1.8rem;
@@ -168,6 +168,7 @@ const Contacto = () => {
         </Heading>
         {/* form */}
         <Form name="contact-form" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact-form"/>
           {/* name */}
           <Entry gridArea="1 / 1 / 2 / 2">
             <Label htmlFor="name">Nombres: </Label>
