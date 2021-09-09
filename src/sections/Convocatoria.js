@@ -115,7 +115,7 @@ const Convocatoria = () => {
       <Heading 
         title="Convocatoria"
         tagline="Beneficios de postulación"
-        description="Convocamos a jóvenes desarrolladores con disponibilidad para participar en expediciones y talleres gratuitos, y la oportunidad de ser miembro de una plataforma digital escalable a nivel nacional."
+        description="Convocamos a jóvenes desarrolladores con disponibilidad para participar en expediciones y talleres gratuitos, y compartir la oportunidad de ser miembro de una plataforma digital escalable a nivel nacional."
         colors={{title: 'blue', text: 'black'}}
         width="95rem"
       />

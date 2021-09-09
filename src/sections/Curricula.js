@@ -46,7 +46,7 @@ const Card = styled.div`
   margin: 2rem;
 
   & h3 {
-    font-size: 4rem;
+    font-size: 3.6rem;
     font-weight: 500;
     line-height: 1;
     color: ${(props) => colors[props.titleColor]};
@@ -80,7 +80,7 @@ const Curricula = () => {
     <Container id="curricula">
       <Heading
         title="Currícula"
-        tagline="Talleres y expediciones"
+        tagline="Expediciones y talleres"
         description="Llevar a nuestra provincia de ser dependiente de la agricultura de subsistencia y la pesca industrial, a ser más productiva orientada al turismo, significa comprender su historia, patrimonio y territorio."
         colors={{ title: "black", text: "black" }}
         width="92rem"
