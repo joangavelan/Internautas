@@ -127,7 +127,7 @@ const Textarea = styled.textarea`
   border: 1px solid #999;
 `
 
-const Submit = styled.button`
+const Submit = styled.input`
   width: 11rem;
   display: block;
   font-size: 1.8rem;
