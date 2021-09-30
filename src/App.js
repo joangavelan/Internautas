@@ -32,7 +32,7 @@ const App = () => {
       <Aliados />
       <Contacto />
       <Footer /> 
-      <Address />
+      {/* <Address /> */}
 
     </AppContainer>
   )
