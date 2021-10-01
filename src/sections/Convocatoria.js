@@ -133,16 +133,16 @@ const Convocatoria = () => {
         </div>
         <div>
           <strong>Publicación de pre-seleccionados<span>:</span></strong>
-          <p>12 de octubre</p>
+          <p>26 de octubre</p>
         </div>
         <div>
           <strong>Entrevistas individuales<span>:</span></strong>
-          <p>15 de octubre</p>
+          <p>28 de octubre</p>
         </div>
         <div>
           <strong>Publicación de seleccionados<span>:</span></strong>
           <div>
-            <p>18 de octubre</p>
+            <p>30 de octubre</p>
             <p>internautas.pe/equipo</p>
             <p>facebook.com/internautasperu</p>
           </div>
@@ -150,7 +150,7 @@ const Convocatoria = () => {
         <div>
           <strong>Taller de inducción<span>:</span></strong>
           <div>
-            <p>21 de octubre a las 16:00 hrs.</p>
+            <p>02 de Noviembre a las 16:00 hrs.</p>
           </div>
         </div>
       </div>
