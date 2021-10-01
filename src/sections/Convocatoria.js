@@ -129,7 +129,7 @@ const Convocatoria = () => {
         </div>
         <div>
           <strong>Cierre de convocatoria<span>:</span></strong>
-          <p>10 de octubre, a las 23:59 hrs.</p>
+          <p>24 de octubre, a las 23:59 hrs.</p>
         </div>
         <div>
           <strong>Publicación de pre-seleccionados<span>:</span></strong>
