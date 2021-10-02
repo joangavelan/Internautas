@@ -7,7 +7,7 @@ const sizes = {
   tablet: 768,
   thone: 600,
   phablet: 480,
-  phone: 376,
+  phone: 420,
   tiny: 330,
 };
 
