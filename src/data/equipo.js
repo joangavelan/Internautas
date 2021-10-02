@@ -19,9 +19,9 @@ export const equipo = [
   },
   {
     id: 4,
-    name: 'Karla Ortega',
-    position: 'coordinadora de turismo',
-    description: 'Administradora en turismo responsable de coordinar las expediciones y los contenidos turísticos de la <em>Red Chimboteros.</em>'
+    name: 'Marco Antonio Castillo',
+    position: 'coordinador de turismo',
+    description: 'Promotor turístico responsable de las expediciones del equipo desarrollador y de los contenidos turísticos de la <em>Red Chimboteros.</em>'
   },
   {
     id: 5,
