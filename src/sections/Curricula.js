@@ -94,9 +94,6 @@ const Curricula = () => {
             gran península El Ferrol y el inspirador mirador de Quillcay.
           </p>
           <a
-            href="/pdfs/Internautas (expediciones).pdf"
-            target="_blank"
-            rel="noreferrer"
           >
             Ver expediciones +
           </a>
