@@ -109,10 +109,7 @@ const Curricula = () => {
             en una plataforma única, sostenible y escalable.
           </p>
           <a
-            href="/pdfs/Internautas (talleres).pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
+           >
             Ver talleres +
           </a>
         </Card>
