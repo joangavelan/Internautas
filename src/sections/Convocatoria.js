@@ -150,7 +150,7 @@ const Convocatoria = () => {
         <div>
           <strong>Taller de inducción<span>:</span></strong>
           <div>
-            <p>02 de Noviembre a las 16:00 hrs.</p>
+            <p>16 de Noviembre a las 18:00 hrs.</p>
           </div>
         </div>
       </div>
